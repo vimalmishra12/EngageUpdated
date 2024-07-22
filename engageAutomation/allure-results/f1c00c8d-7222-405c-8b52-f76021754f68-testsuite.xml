@@ -1,0 +1,225 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1721626540446' stop='1721626552616'>
+    <name>Suite1 - Validation of Landing Page Features and Content (English)</name>
+    <title>Suite1 - Validation of Landing Page Features and Content (English)</title>
+    <test-cases>
+        <test-case start='1721626540594' status='broken' stop='1721626541529'>
+            <name>ENG_LAND_TC_1 Validate that the landing page appears on launching the URL - (P1)</name>
+            <title>ENG_LAND_TC_1 Validate that the landing page appears on launching the URL - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721626540595' status='passed' stop='1721626541366'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1721626541529' status='passed' stop='1721626541529'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>javascript error: elem is not defined
+                  (Session info: chrome=126.0.6478.182)</message>
+                <stack-trace>javascript error: javascript error: elem is not defined
+                  (Session info: chrome=126.0.6478.182)
+                    at getErrorFromResponseBody (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\webdriver\build\request\index.js:166:60)
+                    at Browser.wrapCommandFn (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:136:29)
+                    at Browser.wrapCommandFn (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:136:29)
+                    at Object.enableFullPageScrolling (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\core\runner\/visualTest.js:191:9)
+                    at Object.generateScreenshotsAndLogs (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\core\runner\/visualTest.js:69:9)
+                    at Context.&lt;anonymous> (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\tempRunner\/landingTest.js:146:50)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1721626541529' status='broken' stop='1721626544678'>
+            <name>ENG_LAND_TC_5 Validate the content of the landing page (in English) - (P2)</name>
+            <title>ENG_LAND_TC_5 Validate the content of the landing page (in English) - (P2)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721626541529' status='passed' stop='1721626543477'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='16ab8f1b-9ee6-45a9-9ac9-729938aba0f4-attachment.png' type='image/png' size='523039'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1721626544679' status='passed' stop='1721626544679'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>javascript error: elem is not defined
+                  (Session info: chrome=126.0.6478.182)</message>
+                <stack-trace>javascript error: javascript error: elem is not defined
+                  (Session info: chrome=126.0.6478.182)
+                    at getErrorFromResponseBody (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\webdriver\build\request\index.js:166:60)
+                    at Browser.wrapCommandFn (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:136:29)
+                    at Browser.wrapCommandFn (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:136:29)
+                    at Object.enableFullPageScrolling (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\core\runner\/visualTest.js:191:9)
+                    at Object.generateScreenshotsAndLogs (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\core\runner\/visualTest.js:69:9)
+                    at Context.&lt;anonymous> (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\tempRunner\/landingTest.js:146:50)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1721626544679' status='broken' stop='1721626548324'>
+            <name>ENG_LAND_TC_2 Validate that the sign up page is launched on clicking the 'Sign Up &amp; Start Learning Today' button - (P1)</name>
+            <title>ENG_LAND_TC_2 Validate that the sign up page is launched on clicking the 'Sign Up &amp; Start Learning Today' button - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721626544679' status='passed' stop='1721626545265'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='fb89e324-a2d9-43e7-a2d8-c6fb57b192dc-attachment.png' type='image/png' size='638706'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1721626548324' status='passed' stop='1721626548324'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='16cdcfeb-2ff2-466b-af62-ec59b4323914-attachment.png' type='image/png' size='642005'/>
+                <attachment title='Screenshot' source='751a1ac9-3a80-412a-8113-f07243b14bf6-attachment.png' type='image/png' size='638706'/>
+            </attachments>
+            <failure>
+                <message>javascript error: elem is not defined
+                  (Session info: chrome=126.0.6478.182)</message>
+                <stack-trace>javascript error: javascript error: elem is not defined
+                  (Session info: chrome=126.0.6478.182)
+                    at getErrorFromResponseBody (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\webdriver\build\request\index.js:166:60)
+                    at Browser.wrapCommandFn (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:136:29)
+                    at Browser.wrapCommandFn (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:136:29)
+                    at Object.enableFullPageScrolling (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\core\runner\/visualTest.js:191:9)
+                    at Object.generateScreenshotsAndLogs (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\core\runner\/visualTest.js:69:9)
+                    at Context.&lt;anonymous> (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\tempRunner\/landingTest.js:146:50)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1721626548324' status='broken' stop='1721626551053'>
+            <name>ENG_LAND_TC_3 Validate that the sign in page is launched on clicking the 'Log in' button - (P1)</name>
+            <title>ENG_LAND_TC_3 Validate that the sign in page is launched on clicking the 'Log in' button - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721626548325' status='passed' stop='1721626548898'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1cc1a44c-a0f1-4045-b56b-7a5f49e93e84-attachment.png' type='image/png' size='65005'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1721626551053' status='passed' stop='1721626551053'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='a6bd7b65-f9b5-423c-bc16-ba4fca081ca9-attachment.png' type='image/png' size='642005'/>
+                <attachment title='Screenshot' source='bd691374-e72e-4ca6-bba6-8ee06a3ab8a5-attachment.png' type='image/png' size='638706'/>
+            </attachments>
+            <failure>
+                <message>javascript error: elem is not defined
+                  (Session info: chrome=126.0.6478.182)</message>
+                <stack-trace>javascript error: javascript error: elem is not defined
+                  (Session info: chrome=126.0.6478.182)
+                    at getErrorFromResponseBody (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\webdriver\build\request\index.js:166:60)
+                    at runMicrotasks (&lt;anonymous>)
+                    at Browser.wrapCommandFn (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:136:29)
+                    at Browser.wrapCommandFn (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:136:29)
+                    at Object.enableFullPageScrolling (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\core\runner\/visualTest.js:191:9)
+                    at Object.generateScreenshotsAndLogs (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\core\runner\/visualTest.js:69:9)
+                    at Context.&lt;anonymous> (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\tempRunner\/landingTest.js:146:50)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1721626551054' status='failed' stop='1721626552614'>
+            <name>ENG_LAND_TC_4 Validate that user is able to change the language of the page from the language drop down - (P1)</name>
+            <title>ENG_LAND_TC_4 Validate that user is able to change the language of the page from the language drop down - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721626551054' status='passed' stop='1721626551574'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='61d24b29-1880-439c-a92d-c83527307902-attachment.png' type='image/png' size='49953'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1721626552615' status='passed' stop='1721626552616'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='88d08ef4-0d96-4eb1-b302-815264371dc4-attachment.png' type='image/png' size='638706'/>
+                <attachment title='Screenshot' source='3e2a88c2-45a6-46af-adf2-dc9ab92d80c7-attachment.png' type='image/png' size='638706'/>
+            </attachments>
+            <failure>
+                <message>languageSelector_dropdown are not Clicked: expected 'Español -- language not found in the …' to equal true      
+                      actual expected
+                      
+                      'Español -- language not found in the dropdown'true
+                      </message>
+                <stack-trace>AssertionError: languageSelector_dropdown are not Clicked: expected 'Español -- language not found in the …' to equal true
+                    at Object.assertEqual (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\core\actionLibrary\/baseAssertionLibrary.js:30:16)
+                    at runMicrotasks (&lt;anonymous>)
+                    at Object.ENG_LAND_TC_4 (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\engageExperienceApp\/landing.test.js:29:9)
+                    at specRunner.identifyTest (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\tempRunner\/landingTest.js:222:13)
+                    at Context.&lt;anonymous> (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\tempRunner\/landingTest.js:144:33)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,717 @@
+{
+    "appname": "comproDLS Engage",
+    "appdetails": "",
+    "selectorFile": "./testResources/selectors/backoffice/backofficeSelectors.json",
+    "modules": [
+        {
+            "modulename": "",
+            "moduleId": "BK",
+            "testFile": "./test/backoffice/backoffice.test.js",
+            "testcase": [
+                {
+                    "id": "BK_TC_1",
+                    "description": "Validate that user is able to login to the back office application",
+                    "tags": "P1",
+                    "visualTest": false
+                },
+                {
+                    "id": "BK_TC_2",
+                    "description": "Validate that add book page opens on clicking the add book button",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_3",
+                    "description": "Validate that new book is added on entering required details on the add book page",
+                    "tags": "P1",
+                    "visualTest": false
+                },
+                {
+                    "id": "BK_TC_4",
+                    "description": "Validate that the book details page is launched on clicking the book card on the home page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_5",
+                    "description": "Validate that the delete book dialog box opens on clicking delete button on the book details page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_6",
+                    "description": "Validate that the book is deleted on clicking delete button in the dialog box",
+                    "tags": "P1",
+                    "visualTest": false
+                },
+                {
+                    "id": "BK_TC_7",
+                    "description": "Validate that user is able to logout to the back office application",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_8",
+                    "description": "Validate that add component page opens on clicking the new component button",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_9",
+                    "description": "Validate that new component is added on entering required details on the add component page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_10",
+                    "description": "Validate that the component details page is launched on clicking the component card on the book details page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_11",
+                    "description": "Validate that add folder page opens on clicking the add folder button",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_12",
+                    "description": "Validate that new folder is added on entering required details on the add folder page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_13",
+                    "description": "Validate that the sub-folder page is launched on clicking the folder on the learning path page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_14",
+                    "description": "Validate that add learning objet page opens on clicking the add learning object button",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_15",
+                    "description": "Validate that new learning object is added on entering required details on the add learning object page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_16",
+                    "description": "Validate that clicking on the Level 1 breadcrumb launches components page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_17",
+                    "description": "Validate that the delete component dialog box opens on clicking delete button on the component details page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_18",
+                    "description": "Validate that the component is deleted on clicking delete button in the dialog box",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_19",
+                    "description": "Validate that the delete item dialog box opens on clicking delete button on the learning path page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_20",
+                    "description": "Validate that the items are deleted on clicking delete button in the dialog box",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_21",
+                    "description": "Validate that the delete activity dialog box opens on clicking delete button in the activity menu",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_22",
+                    "description": "Validate that the activity is deleted on clicking delete button in the dialog box",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_23",
+                    "description": "Validate that clicking on the Level 3 breadcrumb launches learning path page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_24",
+                    "description": "Validate that clicking on the back button moves to the previous page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_25",
+                    "description": "Validate that clicking on the activity launches the activity preview",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_26",
+                    "description": "Validate that the form/preview is closed on clicking on the close button",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_27",
+                    "description": "Validate that the generate codes page is launched on clicking generate codes button",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_28",
+                    "description": "Validate that access code batch is created on entering required details on the generate codes page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_29",
+                    "description": "Validate that the view access code page is launched on clicking the view codes button on the home page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_30",
+                    "description": "Validate that the assessment author app is launched on clicking activity author button in the activity menu",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_31",
+                    "description": "Validate that the searched LO is displayed on searching the LO in the Library",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_32",
+                    "description": "Validate that the add activity page appears after selecting the LO and clicking on next button",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_33",
+                    "description": "Validate on clicking Global resources Pill, global resources are filtered out",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_34",
+                    "description": "Validate on clicking Books Pill, Books are filtered out",
+                    "tags": "P1",
+                    "visualTest": false
+                },
+                {
+                    "id": "BK_TC_35",
+                    "description": "Validate user is able to search a book",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_36",
+                    "description": "Set Optional fields on Add Learning Objective page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_37",
+                    "description": "Click Preview and Publish button",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_38",
+                    "description": "Click Snapshot on Preview and Publish Component page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_39",
+                    "description": "Click Publish on Preview and Publish Component page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_40",
+                    "description": "Click Preview on Preview and Publish Component page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_41",
+                    "description": "Close Preview window",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_42",
+                    "description": "Validate that edit folder page opens on clicking the modify options button",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_43",
+                    "description": "Validate that edit book page opens on clicking the modify options button",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_44",
+                    "description": "Validate that edit component page opens on clicking the modify options button",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_45",
+                    "description": "Validate that the delete dialog box opens on selecting all items and deleting on the activity page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_46",
+                    "description": "Validate that edit activity page opens on selecting the modify options in the menu",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_47",
+                    "description": "Validate that access codes are sorted by code",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_48",
+                    "description": "Validate that access codes are sorted by status",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_49",
+                    "description": "Validate that access code can be searched using search box",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_50",
+                    "description": "Validate that snackbar message appears on clicking copy access code icon",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_51",
+                    "description": "Validate that clicking on revoke opens the dialog to revoke or deactivate an access code",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_52",
+                    "description": "Validate that clicking on deactivate suspends the access code temporarily",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_53",
+                    "description": "Validate that clicking on resume opens the dialog to resume the access code",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_54",
+                    "description": "Validate that clicking on resume in the dialog, activates the access code",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_55",
+                    "description": "Validate that clicking on history opens the dialog with logs",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_56",
+                    "description": "Validate that clicking on OK button in the dialog, closed the dialog",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_57",
+                    "description": "Validate that modify access code page is launched on clicking modify",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_58",
+                    "description": "Validate that clicking on deactivate opens the dialog to deactivate the batch",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_59",
+                    "description": "Validate that clicking on deactivate makes the batch inactive",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_60",
+                    "description": "Validate that clicking on activate opens the dialog to activate the batch",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_61",
+                    "description": "Validate that clicking on activate makes the batch active",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_62",
+                    "description": "Validate that clicking on redeem launches the redeem code page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_63",
+                    "description": "Validate that access code is redeemed on entering required details on the redeem code page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_64",
+                    "description": "Validate that view access code page is launched on closing the redeem access code page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_65",
+                    "description": "Validate that the view access code page is launched on clicking the check a code button on the home page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_66",
+                    "description": "Validate that user details page is launched on clicking the redeemed status of an access code",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_67",
+                    "description": "Validate that clicking on next button loads max. of 20 access codes",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_68",
+                    "description": "Validate that clicking on previous button loads max. of 20 access codes",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "BK_TC_999",
+                    "description": "launch url and republish native LO",
+                    "tags": "P1",
+                    "visualTest": true
+                }
+            ]
+        },
+        {
+            "modulename": "",
+            "moduleId": "ADMN",
+            "testFile": "./test/backoffice/admintool.test.js",
+            "testcase": [
+                {
+                    "id": "ADMN_FCLS_TC_1",
+                    "description": "Validate that user is able to search the class using correct class code on the home page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_FCLS_TC_2",
+                    "description": "Validate that no result is displayed if user search partial class code on the home page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_FCLS_TC_3",
+                    "description": "Validate that no result is displayed if user search incorrect class code on the home page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_FCLS_TC_4",
+                    "description": "Validate that user is able to search another class by using find another class feature",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_FCLS_TC_5",
+                    "description": "Validate that Engage app is launched on clicking view class as teacher",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_FINS_TC_1",
+                    "description": "Validate that user is able to search full name in find an institution on the home page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_FINS_TC_2",
+                    "description": "Validate that user is able to search partial name in find an institution on the home page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_FINS_TC_3",
+                    "description": "Validate that user is able to search with special characters in find an institution on the home page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_FINS_TC_4",
+                    "description": "Validate that no result is displayed on searching an incorrect name in find an institution on the home page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_FINS_TC_5",
+                    "description": "Validate that user is able to do empty search on find an institute page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_FINS_TC_10",
+                    "description": "Validate that confirmation dialog opens on changing the key for an institute",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_FINS_TC_11",
+                    "description": "Validate that institute key is changed on confirming the dialog",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_IREQ_TC_1",
+                    "description": "Validate that institution requests page is launched on clicking Institution Requests button on the home page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_IREQ_TC_3",
+                    "description": "Validate that create new institution page is launched on clicking create new institution button",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_IREQ_TC_4",
+                    "description": "Validate that all the fields except website are mandatory for institution creation",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_IREQ_TC_5",
+                    "description": "Validate that clicking on next button after entering all the details shows summary page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_IREQ_TC_6",
+                    "description": "Validate that clicking on create button creates the institution and request recieved page is displayed",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_IREQ_TC_7",
+                    "description": "Validate that rejection page is displayed if all the details of the institution are duplicate",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_IREQ_TC_8",
+                    "description": "Validate that matching record found page is displayed if city, state and coutry are same and name is similar to an existing institution",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_IREQ_TC_10",
+                    "description": "Validate that summary page is displayed on clicking Previous button on the matching record found page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_IREQ_TC_12",
+                    "description": "Validate that user exits the create workflow on clicking cross button during the workflow",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_IREQ_TC_13",
+                    "description": "Validate that dialog box open on clicking accepted button for an institution in the pending list",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_IREQ_TC_14",
+                    "description": "Validate that institution moves to accepted list when the accept button is clicked in the dialog",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_IREQ_TC_15",
+                    "description": "Validate that dialog box open on clicking process button for an institution in the accepted list",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_IREQ_TC_16",
+                    "description": "Validate that institution moves to processing list when the process button is clicked in the dialog",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_IREQ_TC_17",
+                    "description": "Validate that dialog box open on clicking complete button for an institution in the processing list",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_IREQ_TC_18",
+                    "description": "Validate that institution moves to completed list when the complete button is clicked in the dialog",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_IREQ_TC_19",
+                    "description": "Validate that dialog box open on clicking logs button for an institution in the processing list",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_IREQ_TC_20",
+                    "description": "Validate that logs dialog is closed on clicking close button",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_IREQ_TC_21",
+                    "description": "Validate that dialog box open on clicking reject button for an institution",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_IREQ_TC_22",
+                    "description": "Validate that institution moves to rejected list when the reject button is clicked after entering reject reason in the dialog",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_FUSR_TC_1",
+                    "description": "Validate that user is able to Search by Email",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_FUSR_TC_2",
+                    "description": "Validate that user is able to Search with spanish word in FirstName",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_FUSR_TC_3",
+                    "description": "Validate that user is able to Search with special character in lastName",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_FUSR_TC_4",
+                    "description": "Validate the scenario for incorrect Email ID",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_FUSR_TC_5",
+                    "description": "Validate user is able to search with UserID on User search page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_FUSR_TC_6",
+                    "description": "Validate clicking on a row in the search list launch User details page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_FUSR_TC_7",
+                    "description": "Validate that search page is launched on clicking on Find Another User button",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_FUSR_TC_8",
+                    "description": "Find Another User - Validate user is able to search by entering data in search box ",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_USRD_TC_1",
+                    "description": "Validate Entitlements card shows the list of entitled components of a book",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_USRD_TC_2",
+                    "description": "Validate the scenario of Disable a User",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_USRD_TC_3",
+                    "description": "Validate the scenario of Enable a User",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_EUSR_TC_1",
+                    "description": "Validate clicking on 'Entitle User With Pass Key' from User details page",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_EUSR_TC_2",
+                    "description": "Validate the scenario if user is successfully Entitled with Passkey",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_EUSR_TC_3",
+                    "description": "Validate that entitle user page is launched on clicking on 'Entitle User With Pass Key' from Home page and user enter Email and click Proceed button",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_EUSR_TC_4",
+                    "description": "Validate the scenario in Entitle User with pass Key from Dashboard, when user click Cross icon",
+                    "tags": "P1",
+                    "visualTest": true
+                },
+                {
+                    "id": "ADMN_EUSR_TC_5",
+                    "description": "Validate that user details page is launched on clicking View Entitlements button",
+                    "tags": "P1",
+                    "visualTest": true
+                }
+            ]
+        }
+    ]
+}

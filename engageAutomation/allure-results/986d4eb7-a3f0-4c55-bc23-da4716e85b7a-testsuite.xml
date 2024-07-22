@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1721295148109' stop='1721295160294'>
+    <name>Suite2 - Validation of Landing Page Features and Content (Spanish)</name>
+    <title>Suite2 - Validation of Landing Page Features and Content (Spanish)</title>
+    <test-cases>
+        <test-case start='1721295150841' status='passed' stop='1721295158266'>
+            <name>ENG_LAND_TC_4 Validate that user is able to change the language of the page from the language drop down - (P1)</name>
+            <title>ENG_LAND_TC_4 Validate that user is able to change the language of the page from the language drop down - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721295150842' status='passed' stop='1721295150842'>
+                    <name>"before each" hook for Suite2 - Validation of Landing Page Features and Content (Spanish)</name>
+                    <title>"before each" hook for Suite2 - Validation of Landing Page Features and Content (Spanish)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1721295158268' status='passed' stop='1721295158269'>
+                    <name>"after each" hook for Suite2 - Validation of Landing Page Features and Content (Spanish)</name>
+                    <title>"after each" hook for Suite2 - Validation of Landing Page Features and Content (Spanish)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='9cda1e7d-40cc-46e0-a091-32dd420fdbee-attachment.png' type='image/png' size='65737'/>
+                <attachment title='Screenshot' source='32f9b1c5-0fb1-48f6-bfaf-d6019b7ab13f-attachment.png' type='image/png' size='110246'/>
+                <attachment title='Screenshot' source='1a47d3fa-d2d9-4e6f-a855-abb83ee0607d-attachment.png' type='image/png' size='110246'/>
+                <attachment title='Screenshot' source='37bb5d61-411d-4d3f-9900-e76e67f862bd-attachment.png' type='image/png' size='124636'/>
+                <attachment title='Screenshot' source='59212df7-d2e6-42b0-8ec7-dcb6f4523644-attachment.png' type='image/png' size='122630'/>
+                <attachment title='Screenshot' source='b95b732d-cbf8-44bf-b0a8-b5008034d13a-attachment.png' type='image/png' size='112956'/>
+            </attachments>
+        </test-case>
+        <test-case start='1721295158270' status='passed' stop='1721295160291'>
+            <name>ENG_LAND_TC_5 Validate the content of the landing page (in English) - (P2)</name>
+            <title>ENG_LAND_TC_5 Validate the content of the landing page (in English) - (P2)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721295158270' status='passed' stop='1721295158270'>
+                    <name>"before each" hook for Suite2 - Validation of Landing Page Features and Content (Spanish)</name>
+                    <title>"before each" hook for Suite2 - Validation of Landing Page Features and Content (Spanish)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1721295160293' status='passed' stop='1721295160293'>
+                    <name>"after each" hook for Suite2 - Validation of Landing Page Features and Content (Spanish)</name>
+                    <title>"after each" hook for Suite2 - Validation of Landing Page Features and Content (Spanish)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='5f7405a2-a380-473e-971f-6fe7b62d9391-attachment.png' type='image/png' size='116626'/>
+                <attachment title='Screenshot' source='3e3de3aa-ffc6-405f-8757-fccdba105531-attachment.png' type='image/png' size='112956'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

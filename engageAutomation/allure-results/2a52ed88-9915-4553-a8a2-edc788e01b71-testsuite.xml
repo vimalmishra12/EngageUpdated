@@ -1,0 +1,178 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1721296085815' stop='1721296098341'>
+    <name>Suite1 - Validation of Landing Page Features and Content (English)</name>
+    <title>Suite1 - Validation of Landing Page Features and Content (English)</title>
+    <test-cases>
+        <test-case start='1721296085964' status='passed' stop='1721296088177'>
+            <name>ENG_LAND_TC_1 Validate that the landing page appears on launching the URL - (P1)</name>
+            <title>ENG_LAND_TC_1 Validate that the landing page appears on launching the URL - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721296085965' status='passed' stop='1721296088028'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1721296088177' status='passed' stop='1721296088177'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1721296088177' status='passed' stop='1721296090036'>
+            <name>ENG_LAND_TC_5 Validate the content of the landing page (in English) - (P2)</name>
+            <title>ENG_LAND_TC_5 Validate the content of the landing page (in English) - (P2)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721296088177' status='passed' stop='1721296088859'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9b1aaee2-0d66-48ce-944c-625da4b7426e-attachment.png' type='image/png' size='523039'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1721296090036' status='passed' stop='1721296090036'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1721296090036' status='passed' stop='1721296094681'>
+            <name>ENG_LAND_TC_2 Validate that the sign up page is launched on clicking the 'Sign Up &amp; Start Learning Today' button - (P1)</name>
+            <title>ENG_LAND_TC_2 Validate that the sign up page is launched on clicking the 'Sign Up &amp; Start Learning Today' button - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721296090036' status='passed' stop='1721296090964'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d9269a49-8d16-4e12-8afa-60d86cc05159-attachment.png' type='image/png' size='523039'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1721296094681' status='passed' stop='1721296094682'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='0f25c3eb-433f-42bb-806f-7b22bd472dfe-attachment.png' type='image/png' size='642005'/>
+                <attachment title='Screenshot' source='3df57435-adab-4154-90a0-8aa5bc9d5db6-attachment.png' type='image/png' size='642005'/>
+            </attachments>
+        </test-case>
+        <test-case start='1721296094682' status='broken' stop='1721296095746'>
+            <name>ENG_LAND_TC_3 Validate that the sign in page is launched on clicking the 'Log in' button - (P1)</name>
+            <title>ENG_LAND_TC_3 Validate that the sign in page is launched on clicking the 'Log in' button - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721296094682' status='passed' stop='1721296095191'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='39b34e45-99e1-4a33-9007-e6ff99161294-attachment.png' type='image/png' size='65005'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1721296095747' status='passed' stop='1721296095747'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='8e92ea78-a257-4668-84d8-c8dd9fc647a9-attachment.png' type='image/png' size='642005'/>
+                <attachment title='Screenshot' source='b3386b92-97a0-442a-855d-36ff15d8f418-attachment.png' type='image/png' size='642005'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'selectedLangImg' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'selectedLangImg' of undefined
+                    at Object.&lt;anonymous> (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\pages\engageExperienceApp\/login.page.js:26:71)
+                    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+                    at Module._compile (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\pirates\lib\index.js:117:24)
+                    at Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+                    at Object.newLoader [as .js] (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\pirates\lib\index.js:121:7)
+                    at Module.load (internal/modules/cjs/loader.js:979:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+                    at Module.require (internal/modules/cjs/loader.js:1003:19)
+                    at require (internal/modules/cjs/helpers.js:107:18)
+                    at Object.click_loginBtn (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\pages\engageExperienceApp\/landing.page.js:65:25)
+                    at Object.ENG_LAND_TC_3 (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\engageExperienceApp\/landing.test.js:22:15)
+                    at specRunner.identifyTest (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\tempRunner\/landingTest.js:222:13)
+                    at Context.&lt;anonymous> (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\tempRunner\/landingTest.js:144:33)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1721296095748' status='passed' stop='1721296098338'>
+            <name>ENG_LAND_TC_4 Validate that user is able to change the language of the page from the language drop down - (P1)</name>
+            <title>ENG_LAND_TC_4 Validate that user is able to change the language of the page from the language drop down - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721296095748' status='passed' stop='1721296096597'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e423341e-83ee-44eb-89db-a3c3f540a4b5-attachment.png' type='image/png' size='23086'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1721296098339' status='passed' stop='1721296098339'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='5c0f49b3-2688-44bc-ab5a-5fd6c218937c-attachment.png' type='image/png' size='638706'/>
+                <attachment title='Screenshot' source='de87981b-aca2-459f-9dcf-d65d9da5c14d-attachment.png' type='image/png' size='638706'/>
+                <attachment title='Screenshot' source='af601dfa-7f52-45b1-a97f-d11c160badb7-attachment.png' type='image/png' size='640077'/>
+                <attachment title='Screenshot' source='433c9a1d-e232-421d-beb4-b42bdafde9f0-attachment.png' type='image/png' size='642964'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

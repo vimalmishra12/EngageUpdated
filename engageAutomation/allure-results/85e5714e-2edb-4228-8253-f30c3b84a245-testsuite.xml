@@ -1,0 +1,182 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1721628116979' stop='1721628158972'>
+    <name>Suite1 - Validation of Landing Page Features and Content (English)</name>
+    <title>Suite1 - Validation of Landing Page Features and Content (English)</title>
+    <test-cases>
+        <test-case start='1721628117127' status='passed' stop='1721628128762'>
+            <name>ENG_LAND_TC_1 Validate that the landing page appears on launching the URL - (P1)</name>
+            <title>ENG_LAND_TC_1 Validate that the landing page appears on launching the URL - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721628117130' status='passed' stop='1721628117851'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1721628128764' status='passed' stop='1721628128765'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='f19b4cd0-968c-47cf-97fb-d6145b372676-attachment.png' type='image/png' size='524566'/>
+                <attachment title='Screenshot' source='3a2d1e66-406f-4c8d-a2d1-b0ab303f83d3-attachment.png' type='image/png' size='353211'/>
+                <attachment title='Screenshot' source='b654ee56-316f-4aac-abb6-85c8dcb3a9a1-attachment.png' type='image/png' size='128112'/>
+                <attachment title='Screenshot' source='cf0ced93-cc46-4f71-a140-f5ed25087a0a-attachment.png' type='image/png' size='198594'/>
+                <attachment title='Screenshot' source='73f083a3-8939-409c-ad98-61a5a3d6e7d1-attachment.png' type='image/png' size='21648'/>
+            </attachments>
+        </test-case>
+        <test-case start='1721628128766' status='passed' stop='1721628139052'>
+            <name>ENG_LAND_TC_5 Validate the content of the landing page (in English) - (P2)</name>
+            <title>ENG_LAND_TC_5 Validate the content of the landing page (in English) - (P2)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721628128766' status='passed' stop='1721628129368'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='48034406-e1e2-496f-9693-c57af731166a-attachment.png' type='image/png' size='638706'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1721628139054' status='passed' stop='1721628139055'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='72d9124e-2064-40a9-a2b2-d0089590ed04-attachment.png' type='image/png' size='641779'/>
+                <attachment title='Screenshot' source='be9383fc-cb7e-40d6-a8e9-7443df2b43d2-attachment.png' type='image/png' size='353211'/>
+                <attachment title='Screenshot' source='81327a43-5678-4711-b7db-d00765aa574b-attachment.png' type='image/png' size='128112'/>
+                <attachment title='Screenshot' source='e9543309-d41e-45f2-9686-4c02e69b5c2e-attachment.png' type='image/png' size='198594'/>
+                <attachment title='Screenshot' source='cbfa18d6-bb2d-47ca-b4b2-131ddbbf1839-attachment.png' type='image/png' size='21648'/>
+            </attachments>
+        </test-case>
+        <test-case start='1721628139055' status='passed' stop='1721628144491'>
+            <name>ENG_LAND_TC_2 Validate that the sign up page is launched on clicking the 'Sign Up &amp; Start Learning Today' button - (P1)</name>
+            <title>ENG_LAND_TC_2 Validate that the sign up page is launched on clicking the 'Sign Up &amp; Start Learning Today' button - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721628139055' status='passed' stop='1721628139911'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='83200c6d-54b7-4eba-9df4-1077a944dc10-attachment.png' type='image/png' size='638706'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1721628144494' status='passed' stop='1721628144495'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='66163b7a-c9d5-424d-8741-0008275fc576-attachment.png' type='image/png' size='642005'/>
+                <attachment title='Screenshot' source='fd1c37da-aae2-48e7-9bf3-6c2460efb951-attachment.png' type='image/png' size='642005'/>
+                <attachment title='Screenshot' source='d735e1c9-03fc-482c-88d6-eb8fdb25aaa4-attachment.png' type='image/png' size='64607'/>
+                <attachment title='Screenshot' source='4937d1a1-31e9-4e99-9e17-72321a76b01b-attachment.png' type='image/png' size='22468'/>
+            </attachments>
+        </test-case>
+        <test-case start='1721628144499' status='passed' stop='1721628149727'>
+            <name>ENG_LAND_TC_3 Validate that the sign in page is launched on clicking the 'Log in' button - (P1)</name>
+            <title>ENG_LAND_TC_3 Validate that the sign in page is launched on clicking the 'Log in' button - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721628144499' status='passed' stop='1721628144996'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='54b30686-4cd7-4e56-a00d-0cee1c7e3552-attachment.png' type='image/png' size='65005'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1721628149730' status='passed' stop='1721628149732'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='eea81674-d186-4225-ae6f-76425a1e7929-attachment.png' type='image/png' size='642005'/>
+                <attachment title='Screenshot' source='4aa83433-abb0-4c89-ad51-2ee6eeddfdb7-attachment.png' type='image/png' size='638706'/>
+                <attachment title='Screenshot' source='73deef4e-aa42-4290-aa9c-2028472443a7-attachment.png' type='image/png' size='49777'/>
+                <attachment title='Screenshot' source='6aa59ab2-5ebe-47ea-9618-e56122d173c6-attachment.png' type='image/png' size='21778'/>
+            </attachments>
+        </test-case>
+        <test-case start='1721628149739' status='passed' stop='1721628158968'>
+            <name>ENG_LAND_TC_4 Validate that user is able to change the language of the page from the language drop down - (P1)</name>
+            <title>ENG_LAND_TC_4 Validate that user is able to change the language of the page from the language drop down - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721628149740' status='passed' stop='1721628150243'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b130b029-88b4-463e-9033-f684be3c233f-attachment.png' type='image/png' size='49953'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1721628158970' status='passed' stop='1721628158971'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='2f766a02-cd53-4186-9196-04edf9e791a3-attachment.png' type='image/png' size='638706'/>
+                <attachment title='Screenshot' source='2ae38e4d-9b10-43a8-b8a0-55dc83928c9e-attachment.png' type='image/png' size='638706'/>
+                <attachment title='Screenshot' source='523fdb25-7d72-4464-838b-45d94dad36ad-attachment.png' type='image/png' size='640077'/>
+                <attachment title='Screenshot' source='deee88e7-6004-41b2-a723-7a7db33a3c57-attachment.png' type='image/png' size='640077'/>
+                <attachment title='Screenshot' source='f11db0a6-5dd6-4c0d-a83e-3e7ebf77e633-attachment.png' type='image/png' size='645518'/>
+                <attachment title='Screenshot' source='82672a20-e048-489e-8be2-1c17b564e4a2-attachment.png' type='image/png' size='359858'/>
+                <attachment title='Screenshot' source='5f026c40-3d37-4200-917a-bd377b2872e6-attachment.png' type='image/png' size='132021'/>
+                <attachment title='Screenshot' source='16c71537-248a-48ab-be8d-d80e3d3b3b06-attachment.png' type='image/png' size='202467'/>
+                <attachment title='Screenshot' source='7def5da8-4e5e-482a-bfbe-69a155e14aea-attachment.png' type='image/png' size='22908'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

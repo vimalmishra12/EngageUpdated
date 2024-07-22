@@ -1,0 +1,122 @@
+{
+    "findClass": {
+        "class1": {
+            "classKey": "8iT6-23V2",
+            "className": "test class",
+            "institutionName": "Richmond High School",
+            "startDate": "29 Mar 2022",
+            "endDate": "31 Mar 2022"
+        },
+        "class2": {
+            "classKey": "7gd4-WbHJ",
+            "className": "free book class",
+            "institutionName": "Richmond High School",
+            "startDate": "17 Sept 2021",
+            "endDate": "16 Sept 2022"
+        },
+        "partialkey": "8iT6",
+        "incorrectkey": "1234-abcd"
+    },
+    "findInstitution": {
+        "institute1": {
+            "name": "QA Test [DO NOT MODIFY]",
+            "count": 1
+        },
+        "institute2": {
+            "name": "gräs",
+            "count": 1
+        },
+        "institute3": {
+            "name": "روضة الأطفال",
+            "count": 1
+        },
+        "institute4": {
+            "name": "qwerty",
+            "count": 0
+        },
+        "institute5": {
+            "name": "",
+            "count": 20
+        }
+    },
+    "findUser": {
+        "user1": {
+            "firstName": "dev2",
+            "lastName": "teacher3",
+            "email": "dev2teacher3@yopmail.com",
+            "role": "teacher",
+            "userId": "030ab5a7-8d31-4733-ab44-7393f2823cd6"
+        },
+        "user2": {
+            "firstName": "Français",
+            "lastName": "général",
+            "email": "dev2.teacher2@yopmail.com",
+            "role": "teacher",
+            "userId": "8bd7625b-9c6e-43d4-b2d7-e0633fc5793d"
+        },
+        "user3": {
+            "firstName": "hell!@#$%^&*()_+{}|:\"<>?",
+            "lastName": "mc`void",
+            "email": "dev2.student5@yopmail.com",
+            "role": "student",
+            "userId": "4ba7a0a8-f41c-4c80-8214-b9c91cff2a60"
+        },
+        "user4": {
+            "firstName": "",
+            "lastName": "",
+            "email": "abcd@abcd.com",
+            "role": "",
+            "userId": ""
+        },
+        "user5": {
+            "firstName": "Dev2",
+            "lastName": "Teacher3",
+            "email": "dev2.teacher3@yopmail.com",
+            "role": "teacher",
+            "userId": "f013d45b-a82a-4fac-9552-ffcdda9200e5"
+        }
+    },
+    "entitleUser": {
+        "email": "dev2.teacher3@yopmail.com",
+        "productCode": "qatestautomationbook1627375680925",
+        "passKey": "a218d064-60e8-4711-8180-62a724435b94"
+    },
+    "createNewInstitution": {
+        "institution1": {
+            "name": "",
+            "country": "India",
+            "apartment": "1234 test",
+            "street": "qa test",
+            "city": "Delhi",
+            "state": "Delhi",
+            "zip": "999999",
+            "telephone": "1234567890",
+            "email": "dev2teacher1@yopmail.com",
+            "website": "https://www.comprotechnologies.com/"
+        },
+        "institution2": {
+            "name": "institute for logs",
+            "country": "Cote d'Ivoire",
+            "apartment": "1234",
+            "street": "1234",
+            "city": "ghost town",
+            "state": "forest",
+            "zip": "112233",
+            "telephone": "1234-567890",
+            "email": "dev2teacher1@yopmail.com",
+            "website": ""
+        },
+        "institution3": {
+            "name": "institute for logs22",
+            "country": "Cote d'Ivoire",
+            "apartment": "1234",
+            "street": "1234",
+            "city": "ghost town",
+            "state": "forest",
+            "zip": "112233",
+            "telephone": "1234-567890",
+            "email": "dev2teacher1@yopmail.com",
+            "website": ""
+        }
+    }
+}

@@ -1,0 +1,10 @@
+Label,cssSelector,tagName,group,relation,extraInfo,returnValue,teacherAppLangEN,studentAppLangEN
+downPlayerImg,[data-tid=icon-downloadresource],img,downloadPlayer,,,,true,true
+downPlayerTitle,[data-tid='resourcePlayer-title'],h2,downloadPlayer,,,,,
+downPlayerSubtitle,[data-tid='resourcePlayer-subtitle'],p,downloadPlayer,,,,,
+downResHeading,[data-tid='text-label-heading'],p,downloadPlayer,,,,"""Download Resource""","""Download Resource"""
+downResSubheading,[data-tid='text-label-subheading'],p,downloadPlayer,,,,"""Download file to view this resource on your device""","""Download file to view this resource on your device"""
+fileName,[data-tid='text-filetitle'],p,downloadPlayer,,,,,
+fileSize,[data-tid='text-filesize'],p,downloadPlayer,,,,,
+openWithBrowserBtn,[data-tid='button-view'],button,downloadPlayer,,,,"""Open with Browser""","""Open with Browser"""
+downloadBtn,[data-tid='button-download'],button,downloadPlayer,,,,"""Download""","""Download"""

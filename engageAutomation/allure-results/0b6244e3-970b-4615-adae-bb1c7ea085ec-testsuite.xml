@@ -1,0 +1,304 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1721303069744' stop='1721303210674'>
+    <name>Suite1 - Engage Login Feature Validation | Successful Scenarios</name>
+    <title>Suite1 - Engage Login Feature Validation | Successful Scenarios</title>
+    <test-cases>
+        <test-case start='1721303075915' status='passed' stop='1721303079014'>
+            <name>ENG_IDEN_TC_5 Validate that the login button is disabled if email is left blank - (P3)</name>
+            <title>ENG_IDEN_TC_5 Validate that the login button is disabled if email is left blank - (P3)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721303075916' status='passed' stop='1721303075916'>
+                    <name>"before each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</name>
+                    <title>"before each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1721303079015' status='passed' stop='1721303079016'>
+                    <name>"after each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</name>
+                    <title>"after each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='9f3378b2-9e29-446b-957b-1776adb901c3-attachment.png' type='image/png' size='107583'/>
+                <attachment title='Screenshot' source='30c86412-b04a-4f97-b220-dff436fe893f-attachment.png' type='image/png' size='59791'/>
+            </attachments>
+        </test-case>
+        <test-case start='1721303079016' status='passed' stop='1721303081759'>
+            <name>ENG_IDEN_TC_6 Validate that the login button is disabled if password is left blank - (P3)</name>
+            <title>ENG_IDEN_TC_6 Validate that the login button is disabled if password is left blank - (P3)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721303079016' status='passed' stop='1721303079017'>
+                    <name>"before each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</name>
+                    <title>"before each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1721303081760' status='passed' stop='1721303081761'>
+                    <name>"after each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</name>
+                    <title>"after each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='26a9a9d6-5065-4c18-a442-9b1071c3381f-attachment.png' type='image/png' size='62570'/>
+                <attachment title='Screenshot' source='579e6382-bdd4-48e6-b371-1676aca047db-attachment.png' type='image/png' size='59828'/>
+            </attachments>
+        </test-case>
+        <test-case start='1721303081762' status='passed' stop='1721303084620'>
+            <name>ENG_IDEN_TC_9 Validate that the user is able to mask/unmask the password by clicking eye icon - (P2)</name>
+            <title>ENG_IDEN_TC_9 Validate that the user is able to mask/unmask the password by clicking eye icon - (P2)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721303081762' status='passed' stop='1721303081763'>
+                    <name>"before each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</name>
+                    <title>"before each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1721303084622' status='passed' stop='1721303084623'>
+                    <name>"after each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</name>
+                    <title>"after each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='cb55ca72-1360-411a-856e-f6acb0a78326-attachment.png' type='image/png' size='62610'/>
+                <attachment title='Screenshot' source='0d40db6f-1f7b-4b43-af9c-d85b9699986c-attachment.png' type='image/png' size='60874'/>
+                <attachment title='Screenshot' source='dcbda80b-1227-4009-902d-22fbc9e8b9fb-attachment.png' type='image/png' size='60874'/>
+                <attachment title='Screenshot' source='dda0d75b-8615-46fb-9029-ece99fbf243e-attachment.png' type='image/png' size='62951'/>
+                <attachment title='Screenshot' source='8f9d78bb-53c3-43b2-ba49-a78dda257502-attachment.png' type='image/png' size='63099'/>
+                <attachment title='Screenshot' source='358a1cc8-f171-4095-8783-0299589bc0c2-attachment.png' type='image/png' size='58223'/>
+            </attachments>
+        </test-case>
+        <test-case start='1721303084624' status='failed' stop='1721303085348'>
+            <name>ENG_IDEN_TC_2 Validate content on Login page in english Language - (P3)</name>
+            <title>ENG_IDEN_TC_2 Validate content on Login page in english Language - (P3)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721303084625' status='passed' stop='1721303084625'>
+                    <name>"before each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</name>
+                    <title>"before each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1721303085348' status='passed' stop='1721303085348'>
+                    <name>"after each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</name>
+                    <title>"after each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='1ffd83c5-4537-48db-8df7-74fbd6898fe8-attachment.png' type='image/png' size='61048'/>
+            </attachments>
+            <failure>
+                <message>Login Page Email Textbox Label Mismatch: expected 'Email *' to equal 'Email'      
+                      actual expected
+                      
+                      'Email *'
+                      </message>
+                <stack-trace>AssertionError: Login Page Email Textbox Label Mismatch: expected 'Email *' to equal 'Email'
+                    at Object.assertEqual (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\core\actionLibrary\/baseAssertionLibrary.js:30:16)
+                    at runMicrotasks (&lt;anonymous>)
+                    at Object.ENG_IDEN_TC_2 (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\engageExperienceApp\/login.test.js:12:9)
+                    at specRunner.identifyTest (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\tempRunner\/loginTest.js:222:13)
+                    at Context.&lt;anonymous> (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\tempRunner\/loginTest.js:144:33)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1721303085349' status='passed' stop='1721303087903'>
+            <name>ENG_IDEN_TC_11 Validate user is not able to login with invalid Email ID/format - (P3)</name>
+            <title>ENG_IDEN_TC_11 Validate user is not able to login with invalid Email ID/format - (P3)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721303085349' status='passed' stop='1721303085349'>
+                    <name>"before each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</name>
+                    <title>"before each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1721303087906' status='passed' stop='1721303087908'>
+                    <name>"after each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</name>
+                    <title>"after each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='95dfc667-b6df-443a-9c2a-c6fc45641fc3-attachment.png' type='image/png' size='61048'/>
+                <attachment title='Screenshot' source='791b135c-23c8-437a-9437-5eb498c72ea0-attachment.png' type='image/png' size='62424'/>
+                <attachment title='Screenshot' source='3b8e74df-127a-4259-8aca-b1bb0ca7cfbc-attachment.png' type='image/png' size='62424'/>
+                <attachment title='Screenshot' source='5254af85-cad8-482d-915b-8868542d2718-attachment.png' type='image/png' size='65601'/>
+            </attachments>
+        </test-case>
+        <test-case start='1721303087909' status='failed' stop='1721303148743'>
+            <name>ENG_IDEN_TC_12 Validate message If user enter non-existing/unregistered Email ID while login - (P2)</name>
+            <title>ENG_IDEN_TC_12 Validate message If user enter non-existing/unregistered Email ID while login - (P2)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721303087909' status='passed' stop='1721303087909'>
+                    <name>"before each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</name>
+                    <title>"before each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1721303148752' status='passed' stop='1721303148754'>
+                    <name>"after each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</name>
+                    <title>"after each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='4f476736-0fef-449a-a126-a93aaadb9c19-attachment.png' type='image/png' size='68436'/>
+                <attachment title='Screenshot' source='4af9c4de-db48-4e16-8b6e-f80ac1a7a793-attachment.png' type='image/png' size='68214'/>
+                <attachment title='Screenshot' source='df20490b-c7f1-47ca-932f-f6fd7fe39303-attachment.png' type='image/png' size='68214'/>
+            </attachments>
+            <failure>
+                <message>Not Registered Email Alert Mismatch: expected Error: element ("[data-tid=text-info] p, … to equal 'Please check your email address and p…'      
+                      actual expected
+                      
+                      [Error:'Please elementcheck ("[data-tid=text-info]your p,email [data-tid=text-error],address [data-tid=text-success]")and stillpassword notand displayedtry after 60000ms]again.'
+                      </message>
+                <stack-trace>AssertionError: Not Registered Email Alert Mismatch: expected Error: element ("[data-tid=text-info] p, … to equal 'Please check your email address and p…'
+                    at Object.assertEqual (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\core\actionLibrary\/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_IDEN_TC_12 (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\engageExperienceApp\/login.test.js:116:9)
+                    at specRunner.identifyTest (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\tempRunner\/loginTest.js:222:13)
+                    at Context.&lt;anonymous> (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\tempRunner\/loginTest.js:144:33)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1721303148756' status='failed' stop='1721303209741'>
+            <name>ENG_IDEN_TC_13 Validate user is not able to login with invalid password - (P3)</name>
+            <title>ENG_IDEN_TC_13 Validate user is not able to login with invalid password - (P3)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721303148757' status='passed' stop='1721303148757'>
+                    <name>"before each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</name>
+                    <title>"before each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1721303209741' status='passed' stop='1721303209741'>
+                    <name>"after each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</name>
+                    <title>"after each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='bf50521b-b4a7-43f6-b906-f1ad302fd8a7-attachment.png' type='image/png' size='61918'/>
+                <attachment title='Screenshot' source='4addd6c7-d4f2-4eef-b0b6-0be7d65b474d-attachment.png' type='image/png' size='63521'/>
+                <attachment title='Screenshot' source='69cc6853-2bd6-4209-9c63-c14be5b6a0bb-attachment.png' type='image/png' size='63521'/>
+            </attachments>
+            <failure>
+                <message>Invalid Email/Password Alert Mismatch: expected Error: element ("[data-tid=text-info] p, … to equal 'Please check your email address and p…'      
+                      actual expected
+                      
+                      [Error:'Please elementcheck ("[data-tid=text-info]your p,email [data-tid=text-error],address [data-tid=text-success]")and stillpassword notand displayedtry after 60000ms]again.'
+                      </message>
+                <stack-trace>AssertionError: Invalid Email/Password Alert Mismatch: expected Error: element ("[data-tid=text-info] p, … to equal 'Please check your email address and p…'
+                    at Object.assertEqual (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\core\actionLibrary\/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_IDEN_TC_13 (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\engageExperienceApp\/login.test.js:128:9)
+                    at specRunner.identifyTest (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\tempRunner\/loginTest.js:222:13)
+                    at Context.&lt;anonymous> (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\tempRunner\/loginTest.js:144:33)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1721303209742' status='failed' stop='1721303210672'>
+            <name>ENG_IDEN_TC_16 Validate that Reset Password page is launched on clicking 'Forgot Password' button - (P1)</name>
+            <title>ENG_IDEN_TC_16 Validate that Reset Password page is launched on clicking 'Forgot Password' button - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721303209742' status='passed' stop='1721303209742'>
+                    <name>"before each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</name>
+                    <title>"before each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1721303210672' status='passed' stop='1721303210672'>
+                    <name>"after each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</name>
+                    <title>"after each" hook for Suite1 - Engage Login Feature Validation | Successful Scenarios</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='c5aa5c46-ea26-4784-885a-3d77ea8abbf5-attachment.png' type='image/png' size='63487'/>
+                <attachment title='Screenshot' source='0d7bcc86-6e65-457f-bef5-7226f6d67b81-attachment.png' type='image/png' size='63487'/>
+                <attachment title='Screenshot' source='25144d55-bb95-4e17-996b-340e1e1a5552-attachment.png' type='image/png' size='63487'/>
+            </attachments>
+            <failure>
+                <message>Reset Password Page UserName Textbox Not Displayed: expected false to equal true      
+                      actual expected
+                      
+                      falsetrue
+                      </message>
+                <stack-trace>AssertionError: Reset Password Page UserName Textbox Not Displayed: expected false to equal true
+                    at Object.assertEqual (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\core\actionLibrary\/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_IDEN_TC_16 (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\engageExperienceApp\/login.test.js:158:9)
+                    at specRunner.identifyTest (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\tempRunner\/loginTest.js:222:13)
+                    at Context.&lt;anonymous> (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\tempRunner\/loginTest.js:144:33)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

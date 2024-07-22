@@ -1,0 +1,559 @@
+{
+    "engage": {
+        "login": {
+            "user": {
+                "validStudent1": {
+                    "email": "hutudibrulli-3717@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "student",
+                    "name": "hutudibrulli-3717 auto",
+                    "class": [
+                        {
+                            "key": "AEYP-p9hk",
+                            "name": "future Class"
+                        },
+                        {
+                            "key": "9q6x-QzFe",
+                            "name": "course1"
+                        },
+                        {
+                            "key": "Cw32-FLZ7",
+                            "name": "Archive Class"
+                        }
+                    ],
+                    "info": {}
+                },
+                "validStudent2": {
+                    "email": "jijetoullozo-4043@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "student",
+                    "name": "QA Automation Student2",
+                    "class": [],
+                    "info": {}
+                },
+                "validStudent3": {
+                    "email": "dev1_studentAutomation@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "student",
+                    "name": "student automation",
+                    "class": [
+                        {
+                            "key": "AEYP-p9hk",
+                            "name": "future Class"
+                        },
+                        {
+                            "key": "9q6x-QzFe",
+                            "name": "course1"
+                        },
+                        {
+                            "key": "Cw32-FLZ7",
+                            "name": "Archive Class"
+                        }
+                    ],
+                    "info": {}
+                },
+                "validStudent4": {
+                    "email": "gudacivoto-4427@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "student",
+                    "name": "QAStudent4",
+                    "class": [],
+                    "country": "",
+                    "info": "Automation User.Do Not Touch."
+                },
+                "uiStudent": {
+                    "email": "dev1uistudent1@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "student",
+                    "name": "dev1ui student1",
+                    "class": [
+                        {
+                            "key": "HB4A-3Rad",
+                            "name": "class1"
+                        }
+                    ],
+                    "info": {}
+                },
+                "uiTeacher": {
+                    "email": "dev1uiteacher1@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "teacher",
+                    "name": "dev1ui teacher1",
+                    "class": [
+                        {
+                            "key": "HB4A-3Rad",
+                            "name": "class1"
+                        }
+                    ],
+                    "info": {}
+                },
+                "acceptanceteacher": {
+                    "email": "acceptanceTeacher@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "teacher",
+                    "name": "acceptance Teacher",
+                    "class": [
+                        {
+                            "key": "TFbA-6AP7",
+                            "name": "acceptanceClass"
+                        }
+                    ],
+                    "info": {}
+                },
+                "acceptanceStudent": {
+                    "email": "acceptanceStudent2@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "student",
+                    "name": "acceptance student",
+                    "class": [
+                        {
+                            "key": "TFbA-6AP7",
+                            "name": "acceptanceClass"
+                        }
+                    ],
+                    "info": {}
+                },
+                "successfulStudentUser": {
+                    "email": "difusionqa.stud6@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "student",
+                    "name": "difusionqa.stud6",
+                    "class": [],
+                    "info": {}
+                },
+                "successfulInstructorUser": {
+                    "email": "difusionqa.teach46@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "teacher",
+                    "name": "difusionqa teach46",
+                    "class": [],
+                    "info": {}
+                },
+                "validStudent5": {
+                    "email": "difusionqa.stud44@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "student",
+                    "name": "difusionqa stud44",
+                    "class": [],
+                    "country": "",
+                    "info": "Settings Free user"
+                },
+                "validStudent6": {
+                    "email": "difusionqa.stud43@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "student",
+                    "name": "difusionqa stud43",
+                    "class": [],
+                    "country": "",
+                    "info": "Settings Premium user"
+                },
+                "invalidUser1": {
+                    "email": "etirrase@yopmail",
+                    "password": "hfcghgufyhW#2",
+                    "role": "student",
+                    "name": "etirrase-9139",
+                    "courses": [
+                        "course1"
+                    ],
+                    "info": {}
+                },
+                "invalidUser2": {
+                    "email": "etirrase@yopm.in",
+                    "password": "Compro1234",
+                    "role": "student",
+                    "name": "etirrase-9139",
+                    "courses": [
+                        "course1"
+                    ],
+                    "info": {}
+                },
+                "invalidUser3": {
+                    "email": "etirrase-9139@yopmail.com",
+                    "password": "h@@hW#2",
+                    "role": "student",
+                    "name": "etirrase-9139",
+                    "courses": [
+                        "course1"
+                    ],
+                    "info": {}
+                },
+                "validInstructorUser1": {
+                    "email": "culineziffa-4105@yopmail.com",
+                    "password": "Compro@111",
+                    "role": "instructor",
+                    "name": "culineziffa-4105 teacher",
+                    "courses": [
+                        {
+                            "key": "VYd6-QDXo",
+                            "name": "course1"
+                        }
+                    ],
+                    "info": {}
+                },
+                "validInstructorUser2": {
+                    "email": "teacher3@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "instructor",
+                    "name": "teacher 3",
+                    "courses": [],
+                    "country": "Cuba",
+                    "info": "freash user without books or classes"
+                },
+                "validInstructorUser3": {
+                    "email": "teacher5@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "instructor",
+                    "name": "teacher 5",
+                    "courses": [],
+                    "country": "Cuba",
+                    "info": "Accessibility Settings User.Do Not Touch."
+                },
+                "validInstructorUser4": {
+                    "email": "durazoroma-2856@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "instructor",
+                    "name": "QATeacher4",
+                    "courses": [],
+                    "country": "",
+                    "info": "Automation User.Do Not Touch."
+                },
+                "NoClassInstructor": {
+                    "email": "noclassinstructornew@yopmail.com",
+                    "password": "Compro@1234",
+                    "name": "noclassinstructor new",
+                    "role": "instructor",
+                    "class": [],
+                    "info": {}
+                },
+                "noClassStudent": {
+                    "email": "noClassStudent@yopmail.com",
+                    "password": "Compro@1234",
+                    "name": "No Class",
+                    "role": "student",
+                    "class": [],
+                    "info": {}
+                },
+                "classInstructorUser1": {
+                    "email": "classinstructor1@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "instructor",
+                    "name": "classinstructor 1",
+                    "class": [
+                        {
+                            "key": "AEYP-p9hk",
+                            "name": "future Class"
+                        },
+                        {
+                            "key": "9q6x-QzFe",
+                            "name": "Active Class"
+                        },
+                        {
+                            "key": "Cw32-FLZ7",
+                            "name": "Archive Class"
+                        },
+                        {
+                            "key": "",
+                            "name": "Archive Class Check"
+                        },
+                        {
+                            "key": "RjaY-4LRn",
+                            "name": "Archive class with Student"
+                        }
+                    ],
+                    "info": {}
+                },
+                "classInstructorUser3": {
+                    "email": "dev1_teacher002@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "instructor",
+                    "name": "qa teacher9",
+                    "class": [
+                        {
+                            "key": "TFbA-6AP7",
+                            "name": "Assignment Automation"
+                        },
+                        {
+                            "key": "TFbA-6AP7",
+                            "name": "Class Assignment test"
+                        },
+                        {
+                            "key": "TFbA-6AP7",
+                            "name": "class3"
+                        },
+                        {
+                            "key": "TFbA-6AP7",
+                            "name": "Gradebook",
+                            "studentName1": "dev1 student100"
+                        },
+                        {
+                            "key": "msLz-9NZA",
+                            "name": "Class no student"
+                        }
+                    ],
+                    "info": {}
+                },
+                "classInstructorUser5": {
+                    "email": "qa_teacher1@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "instructor",
+                    "name": "qa teacher9",
+                    "class": [
+                        {
+                            "key": "TFbA-6AP7",
+                            "name": "class2"
+                        },
+                        {
+                            "key": "TFbA-6AP7",
+                            "name": "class1"
+                        },
+                        {
+                            "key": "TFbA-6AP7",
+                            "name": "class3"
+                        }
+                    ],
+                    "info": {}
+                },
+                "classInstructorUser6": {
+                    "email": "qa_teachertest1@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "instructor",
+                    "name": "qa teachertest1",
+                    "class": [
+                        {
+                            "key": "TFbA-6AP7",
+                            "name": "class2"
+                        },
+                        {
+                            "key": "TFbA-6AP7",
+                            "name": "class1"
+                        },
+                        {
+                            "key": "TFbA-6AP7",
+                            "name": "class3"
+                        }
+                    ],
+                    "info": {}
+                },
+                "classInstructorUser4": {
+                    "email": "4-teacher@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "instructor",
+                    "name": "4 Teacher dev1",
+                    "class": [],
+                    "info": {}
+                },
+                "classInstructorUser7": {
+                    "email": "qa_teacher100@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "instructor",
+                    "name": "qa teacher100",
+                    "class": [
+                        {
+                            "key": "TFbA-6AP7",
+                            "name": "Automation"
+                        }
+                    ],
+                    "info": {}
+                },
+                "classInstructorUser8": {
+                    "email": "difqains3@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "instructor",
+                    "name": "qa teacher",
+                    "class": [
+                        {
+                            "key": "TFbA-6AP7",
+                            "name": "new automation class1"
+                        }
+                    ],
+                    "info": {}
+                },
+                "flipbookUser": {
+                    "email": "flipbook_automation@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "instructor",
+                    "name": "flipbook automation",
+                    "class": [],
+                    "info": {}
+                },
+                "assignmentStudent": {
+                    "email": "assignment_student1@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "student",
+                    "name": "Assignment Student 2",
+                    "class": [
+                        {
+                            "key": "TFbA-6AP7",
+                            "name": "Class with no assignment"
+                        },
+                        {
+                            "key": "TFbA-6AP7",
+                            "name": "Class 1"
+                        },
+                        {
+                            "key": "v324-6vg7",
+                            "name": "Class Assignment test"
+                        }
+                    ],
+                    "info": {}
+                },
+                "gradeBookStudent": {
+                    "email": "dev1_student100@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "student",
+                    "name": "dev1 student100",
+                    "class": [
+                        {
+                            "key": "TFbA-6AP7",
+                            "name": "Gradebook",
+                            "studentName1": "dev1 student100"
+                        },
+                        {
+                            "key": "TFbA-6AP7",
+                            "name": "Non-Scorable",
+                            "studentName1": "dev1 student100"
+                        }
+                    ],
+                    "info": {}
+                },
+                "writingPlayerTeacher": {
+                    "email": "writingPlayer_teacher@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "instructor",
+                    "name": "Teacher Writing Player",
+                    "class": [
+                        {
+                            "key": "4rvF-gRHj",
+                            "name": "class 15"
+                        }
+                    ],
+                    "info": {}
+                },
+                "writingStudent1": {
+                    "email": "autodev1stud1@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "student",
+                    "name": "Automation Student1",
+                    "class": [
+                        {
+                            "key": "dNcW-6h9X",
+                            "name": "class1"
+                        }
+                    ],
+                    "info": {}
+                },
+                "writingTeacher1": {
+                    "email": "autodev1ins1@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "instructor",
+                    "name": "Automation Instructor1",
+                    "class": [
+                        {
+                            "key": "dNcW-6h9X",
+                            "name": "class1"
+                        }
+                    ],
+                    "info": {}
+                },
+                "onboardingTeacher": {
+                    "email": "onboardTeacher8@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "teacher",
+                    "name": "général d’expressions",
+                    "class": [],
+                    "info": {}
+                },
+                "onboardingStudent": {
+                    "email": "onboardStudent6@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "student",
+                    "name": "Onboard Student6",
+                    "class": [],
+                    "info": {}
+                },
+                "signUpUser": {
+                    "email": "newUser@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "student",
+                    "name": "New User",
+                    "class": [],
+                    "info": {
+                        "partialPassword": "Com@123",
+                        "upperCasePassword": "COMPRO@1234",
+                        "lowercasePassword": "compro@1234",
+                        "incorrectConfirmPassword": "Compro@123456",
+                        "withoutSpecialCharacterPassword": "Compro1234",
+                        "firstName": "New",
+                        "lastName": "User",
+                        "countryName": "India"
+                    }
+                },
+                "iccInstructorUser3": {
+                    "email": "dev1_libraryICCAssignmentTeacher@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "instructor",
+                    "name": "dev1 libraryICCAutoTeacher",
+                    "class": [
+                        {
+                            "key": "dNcW-6h9X",
+                            "name": "class3"
+                        }
+                    ],
+                    "info": {}
+                },
+                "iccInstructorUser1": {
+                    "email": "dev1_libraryICCAutoTeacher@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "instructor",
+                    "name": "dev1 libraryICCAutoTeacher",
+                    "class": [
+                    ],
+                    "info": {}
+                },
+                "iccInstructorUser2": {
+                    "email": "dev1_libraryICCAutoTeacherWithClass@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "instructor",
+                    "name": "dev1 libraryICCAutoTeacherWithClass",
+                    "class": [
+                        {
+                            "key": "dNcW-6h9X",
+                            "name": "class1"
+                        },
+                        {
+                            "key": "dNcW-6h9X",
+                            "name": "class4"
+                        }
+                    ],
+                    "info": {}
+                },
+                "itemUser": {
+                    "email": "megha1@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "student",
+                    "name": "Megha Teacher1",
+                    "class": [],
+                    "info": {}
+                }
+            }
+        },
+        "codesAndKeys": {
+            "schoolName": "Mount Allison School",
+            "invalid_OTP": [
+                "12046",
+                "000000"
+            ],
+            "validSchoolKey": "NGL-FUW-GQL",
+            "invalidSchoolKey": "NGL-FUW-123",
+            "invalidClassKey": [
+                "HJ2y-1234"
+            ],
+            "bookName1": "INTRODUCTION TO BIOLOGY",
+            "validAccessCodes1": [],
+            "invalidAccessCodes": [
+                "PT12-1111-7777-0000",
+                "PTH3-R79A-76DE-Y9RE"
+            ]
+        }
+    }
+}

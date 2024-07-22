@@ -1,0 +1,369 @@
+{
+    "edit": {
+        "book": [
+            {
+                "type": "BOOK",
+                "name": "QA Test Automation Book [DO NOT PUBLISH]",
+                "coverImage": "./testResources/testcaseData/backoffice/production/book_cover_compro_qa.png",
+                "description": "QA automation test description",
+                "bookDesign": "Green",
+                "visibility": "True",
+                "anchorLearningPath": "None",
+                "anchorFlipbook": "None"
+            },
+            {
+                "type": "GLOBAL_RESOURCES",
+                "name": "QA Test Automation Global Resource [DO NOT PUBLISH]",
+                "category": "Interactive Activities",
+                "visibility": "True",
+                "targetRole": "All"
+            }
+        ],
+        "component": [
+            {
+                "type": "Learning Path",
+                "title": "QA Automation Test Learning Path - extra activities [DO NOT PUBLISH]",
+                "folderLevel": "3",
+                "autonumbering": "1-based",
+                "category": "Extra Activities",
+                "visibility": "True",
+                "targetRole": "All",
+                "assignable": "True",
+                "freelyAvailable": "Teacher"
+            },
+            {
+                "type": "Bank",
+                "title": "QA Automation Test Bank (Tracking False) [DO NOT PUBLISH]",
+                "folderLevel": "2",
+                "autonumbering": "0-based",
+                "category": "Resources",
+                "visibility": "True",
+                "targetRole": "All",
+                "assignable": "False",
+                "freelyAvailable": "Teacher",
+                "enableTracking": "None"
+            },
+            {
+                "type": "Flipbook",
+                "title": "QA Automation Test Flipbook - none [DO NOT PUBLISH]",
+                "category": "None",
+                "visibility": "True",
+                "targetRole": "All",
+                "freelyAvailable": "Both (Teacher and Student)"
+            },
+            {
+                "type": "Bank",
+                "title": "QA Automation Test Bank (Tracking True) [DO NOT PUBLISH]",
+                "folderLevel": "3",
+                "autonumbering": "None",
+                "category": "None",
+                "visibility": "True",
+                "targetRole": "All",
+                "assignable": "True",
+                "freelyAvailable": "None",
+                "enableTracking": "Student"
+            }
+        ],
+        "folder": [
+            {
+                "name": "QA Automation Test folder L1",
+                "coverImage": "./testResources/testcaseData/backoffice/production/image-1.png",
+                "targetRole": "Inherit",
+                "assignable": "Inherit",
+                "color": "#212121",
+                "page": "1",
+                "folderType": "Default"
+            },
+            {
+                "name": "QA Automation Test folder L2",
+                "coverImage": "",
+                "targetRole": "Inherit",
+                "assignable": "Inherit",
+                "color": "#212121",
+                "page": "11",
+                "folderType": "Default"
+            }
+        ],
+        "activity": [
+            {
+                "type": "Native Engage Learning Object",
+                "id": "category-0-option-0",
+                "name": "QA Automation - Native",
+                "completion": true,
+                "scoring": true,
+                "targetRole": "Inherit",
+                "assignable": "Inherit",
+                "page": "13",
+                "activityTheme": "Simple"
+            },
+            {
+                "type": "Native Engage Learning Object",
+                "id": "category-0-option-0",
+                "name": "QA Automation - Writing",
+                "completion": true,
+                "scoring": true,
+                "targetRole": "Inherit",
+                "assignable": "Inherit",
+                "page": "14"
+            },
+            {
+                "type": "Close Ended Learning Object",
+                "id": "category-4-option-0",
+                "name": "QA Automation Test LO3 - close ended linked from Library",
+                "file": "au_plus_1_iexe_exam_9"
+            },
+            {
+                "type": "Video",
+                "id": "category-2-option-0",
+                "name": "QA Automation rich video",
+                "file": "./testResources/testcaseData/backoffice/production/SampleVideo_1280x720_2mb.mp4",
+                "completion": false,
+                "targetRole": "Inherit",
+                "assignable": "Inherit",
+                "page": ""
+            },
+            {
+                "type": "Audio",
+                "id": "category-2-option-1",
+                "name": "QA Automation rich audio",
+                "file": "./testResources/testcaseData/backoffice/production/rich-audio.mp3"
+            },
+            {
+                "type": "Video with subtitles",
+                "id": "category-2-option-2",
+                "name": "QA Automation Video with subtitles",
+                "file": "./testResources/testcaseData/backoffice/production/IGT_video.zip"
+            },
+            {
+                "type": "Audio with subtitles",
+                "id": "category-2-option-3",
+                "name": "QA Automation Audio with subtitles",
+                "file": "./testResources/testcaseData/backoffice/production/audio_with_subtitle.zip"
+            },
+            {
+                "type": "Document",
+                "id": "category-3-option-0",
+                "name": "QA Automation document",
+                "file": "./testResources/testcaseData/backoffice/production/Lorem Ipsum.docx"
+            },
+            {
+                "type": "ZIP Archive",
+                "id": "category-3-option-1",
+                "name": "QA Automation ZIP Archive",
+                "file": "./testResources/testcaseData/backoffice/production/Lorem Ipsum.zip"
+            },
+            {
+                "type": "PDF",
+                "id": "category-3-option-2",
+                "name": "QA Automation pdf",
+                "file": "./testResources/testcaseData/backoffice/production/Lorem Ipsum.pdf"
+            },
+            {
+                "type": "Spreadsheet",
+                "id": "category-3-option-3",
+                "name": "QA Automation spreadsheet",
+                "file": "./testResources/testcaseData/backoffice/production/Lorem Ipsum.xlsx",
+                "completion": false,
+                "targetRole": "Inherit",
+                "assignable": "Inherit",
+                "page": ""
+            },
+            {
+                "type": "Native Engage Learning Object",
+                "id": "category-0-option-0",
+                "name": "QA Automation - Native Kids",
+                "targetRole": "All",
+                "assignable": "True",
+                "activityTheme": "Illustrative"
+            }
+        ],
+        "accessCodeBatch": [
+            {
+                "batchName": "QA automation test batch1",
+                "startDate": "01/01/2022",
+                "endDate": "01/31/2022",
+                "codeLimit": 50,
+                "status": "Active"
+            }
+        ]
+    },
+    "create": {
+        "book": [
+            {
+                "type": "BOOK",
+                "name": "QA Test Automation Book [DO NOT PUBLISH",
+                "coverImage": "./testResources/testcaseData/backoffice/production/book_cover_lorem.jpg",
+                "description": "test description",
+                "bookDesign": "Red",
+                "visibility": "False",
+                "anchorLearningPath": "None",
+                "anchorFlipbook": "None"
+            },
+            {
+                "type": "GLOBAL_RESOURCES",
+                "name": "QA Test Automation Global Resource [DO NOT PUBLISH",
+                "category": "Videos",
+                "visibility": "False",
+                "targetRole": "Teachers Only"
+            }
+        ],
+        "component": [
+            {
+                "type": "Learning Path",
+                "title": "QA Automation Test Learning Path - extra activities [DO NOT PUBLISH",
+                "folderLevel": "2",
+                "autonumbering": "0-based",
+                "category": "None",
+                "visibility": "False",
+                "targetRole": "Teachers Only",
+                "assignable": "False",
+                "freelyAvailable": "None"
+            },
+            {
+                "type": "Bank",
+                "title": "QA Automation Test Bank (Tracking False) [DO NOT PUBLISH",
+                "folderLevel": "3",
+                "autonumbering": "1-based",
+                "category": "None",
+                "visibility": "False",
+                "targetRole": "Teachers Only",
+                "assignable": "True",
+                "freelyAvailable": "Teacher",
+                "enableTracking": "Both"
+            },
+            {
+                "type": "Flipbook",
+                "title": "QA Automation Test Flipbook - none [DO NOT PUBLISH",
+                "category": "Textbook",
+                "visibility": "False",
+                "targetRole": "Teachers Only",
+                "freelyAvailable": "Teacher"
+            },
+            {
+                "type": "Bank",
+                "title": "QA Automation Test Bank (Tracking True) [DO NOT PUBLISH",
+                "folderLevel": "2",
+                "autonumbering": "1-based",
+                "category": "Resources",
+                "visibility": "False",
+                "targetRole": "Teachers Only",
+                "assignable": "False",
+                "freelyAvailable": "Teacher",
+                "enableTracking": "None"
+            }
+        ],
+        "folder": [
+            {
+                "name": "QA Automation Test folder",
+                "coverImage": "./testResources/testcaseData/backoffice/production/image-3.png",
+                "targetRole": "All",
+                "assignable": "True",
+                "color": "#d20f0f",
+                "page": "11",
+                "folderType": "Default"
+            },
+            {
+                "name": "QA Automation Test sub-folder",
+                "coverImage": "./testResources/testcaseData/backoffice/production/image-2.png",
+                "targetRole": "All",
+                "assignable": "True",
+                "color": "#158e19",
+                "page": "12",
+                "folderType": "Part"
+            }
+        ],
+        "activity": [
+            {
+                "type": "Native Engage Learning Object",
+                "id": "category-0-option-0",
+                "name": "QA Automation Close Ended",
+                "completion": false,
+                "scoring": false,
+                "targetRole": "All",
+                "assignable": "True",
+                "page": "13",
+                "activityTheme": "Simple"
+            },
+            {
+                "type": "Native Engage Learning Object",
+                "id": "category-0-option-0",
+                "name": "QA Automation Open Ended",
+                "completion": false,
+                "scoring": false,
+                "targetRole": "All",
+                "assignable": "True",
+                "page": "14"
+            },
+            {
+                "type": "Close Ended Learning Object",
+                "id": "category-4-option-0",
+                "name": "QA Automation Test LO3 - close ended linked from Library",
+                "file": "au_plus_1_iexe_exam_9"
+            },
+            {
+                "type": "Video",
+                "id": "category-2-option-0",
+                "name": "QA Automation rich video",
+                "file": "./testResources/testcaseData/backoffice/production/rich-video.mp4",
+                "completion": false,
+                "targetRole": "All",
+                "assignable": "True",
+                "page": "14"
+            },
+            {
+                "type": "Audio",
+                "id": "category-2-option-1",
+                "name": "QA Automation rich audio",
+                "file": "./testResources/testcaseData/backoffice/production/rich-audio.mp3"
+            },
+            {
+                "type": "Video with subtitles",
+                "id": "category-2-option-2",
+                "name": "QA Automation Video with subtitles",
+                "file": "./testResources/testcaseData/backoffice/production/IGT_video.zip"
+            },
+            {
+                "type": "Audio with subtitles",
+                "id": "category-2-option-3",
+                "name": "QA Automation Audio with subtitles",
+                "file": "./testResources/testcaseData/backoffice/production/audio_with_subtitle.zip"
+            },
+            {
+                "type": "Document",
+                "id": "category-3-option-0",
+                "name": "QA Automation document",
+                "file": "./testResources/testcaseData/backoffice/production/Lorem Ipsum.docx"
+            },
+            {
+                "type": "ZIP Archive",
+                "id": "category-3-option-1",
+                "name": "QA Automation ZIP Archive",
+                "file": "./testResources/testcaseData/backoffice/production/Lorem Ipsum.zip"
+            },
+            {
+                "type": "PDF",
+                "id": "category-3-option-2",
+                "name": "QA Automation pdf",
+                "file": "./testResources/testcaseData/backoffice/production/Lorem Ipsum.pdf"
+            },
+            {
+                "type": "Spreadsheet",
+                "id": "category-3-option-3",
+                "name": "QA Automation xls",
+                "file": "./testResources/testcaseData/backoffice/production/SampleXLSFile_19kb.xls",
+                "completion": true,
+                "targetRole": "Teachers Only",
+                "assignable": "False",
+                "page": ""
+            },
+            {
+                "type": "Native Engage Learning Object",
+                "id": "category-0-option-0",
+                "name": "QA Automation - Native Kids",
+                "targetRole": "All",
+                "assignable": "True",
+                "activityTheme": "Illustrative"
+            }
+        ]
+    }
+}

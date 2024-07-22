@@ -1,0 +1,1129 @@
+{
+    "appname": "Assessment Editor",
+    "appdetails": "",
+    "selectorFile": "./testResources/selectors/assessmentEditor/editorSelectors.json",
+    "modules": [
+        {
+            "modulename": "Assessment Editor",
+            "moduledetails": "",
+            "testFile": "./test/assessmentEditor/editor.test.js",
+            "testcase": [
+                {
+                    "id": "EDIT_TC_1",
+                    "description": "TestBench Home page is initialised",
+                    "tags": "P1"
+                },
+                {
+                    "id": "EDIT_TC_2",
+                    "description": "Click on Launch Button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "EDIT_TC_13",
+                    "description": "Click on Add Answer Button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_4",
+                    "description": "Validate that a new question is added by clicking on the 'Add new Question' button on the left pane",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_QUN_TC_5",
+                    "description": "Validate that alphanumeric text is supported in Question Title Text.",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_QUN_TC_17",
+                    "description": "Validate that the Next Button is enabled only after a question is added",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_MCQ_TC_14",
+                    "description": "Validate that Option is added in  questions",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_86",
+                    "description": "Validate that user is able to add Audio using Browse button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_87",
+                    "description": "Validate that user is able to add Video using Browse button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_92",
+                    "description": "Validate that user is able to add 'Title/Credits' in Audio Media",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_120",
+                    "description": "Validate the editor is selected in question pane and displayed.",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_QUN_TC_9",
+                    "description": "Validate that the Question can be added using Add Question button.",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_DND_TC_9",
+                    "description": "Validate that the user can add a label in the Response Template",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_15",
+                    "description": "Validate that the 'Video Player' in the media works fine",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_16",
+                    "description": "Validate that the 'Title/Credits' are working fine in Video media",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_MAT_TC_14",
+                    "description": "Validate tthe pair is added in player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_MAT_TC_15",
+                    "description": "Validate the text is added in matched itmes",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_MAT_TC_16",
+                    "description": "Validate the text is added in itmes",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_9",
+                    "description": "Validate that student can add instruction for each question under the 'Question' section",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_CLS_TC_2",
+                    "description": "Validate that user is able to add group if group count is less than 10",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_CLS_TC_13",
+                    "description": "Validate that user is able to add option if total option count is less than 15",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_CLS_TC_9",
+                    "description": "Validate that special characters are allowed in Group Name.",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_CLS_TC_21",
+                    "description": "Validate that alphanumeric characters are allowed in option Name.",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_CLS_TC_17",
+                    "description": "Validate that user should be able to select group for an option.",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_24",
+                    "description": "Validate that the default scoring for each question is 1",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_42",
+                    "description": "Validate if alpha-numeric text is allowed in the Question Text",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_43",
+                    "description": "Validate if alpha-numeric text is allowed in the Option Text",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_75",
+                    "description": "Validate that user is able to add image using Browse button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_DND_TC_29",
+                    "description": "DND Editor - Insert Image from browse button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_DND_TC_30",
+                    "description": "DND Editor -Validate that Image Left Right dropdown is clicked from settings.",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_DND_TC_31",
+                    "description": "DND Editor - Validate that Left Right option is clicked from image setting dropdown.",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_DND_TC_32",
+                    "description": "DND Editor - Validate that Top Bottom option is clicked from image setting dropdown.",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_FIB_TC_1",
+                    "description": "Enter the Answer in FIB Value",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_FIB_TC_2",
+                    "description": "Click the Add More option ",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_997",
+                    "description": "Click preview button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_998",
+                    "description": "Click preview and publish tab",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_999",
+                    "description": "Click on save and return",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1000",
+                    "description": "set question text",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1001",
+                    "description": "Set Header Title text from placeHolder",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1002",
+                    "description": "Set Instruction text from placeHolder",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1003",
+                    "description": "Next Question Clicked",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1004",
+                    "description": "Delete Media Clicked",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1005",
+                    "description": "Click Edit Prompt Button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1006",
+                    "description": "Set Prompt textPlaceholder text",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1007",
+                    "description": "Click on SubQuestion button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1008",
+                    "description": "Add Option text",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1009",
+                    "description": "Click on SubQuestion text",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1098",
+                    "description": "Click on MultiRespose Checkbox",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1099",
+                    "description": "Click on MultiRespose Checkbox",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1010",
+                    "description": "Click on Top bottom option",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1011",
+                    "description": "Click on Left right option",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1012",
+                    "description": "Add the score in the activity player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1013",
+                    "description": "Click Add Answer Button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1014",
+                    "description": "Click Done Button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1015",
+                    "description": "Click Add Subquestuib button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1016",
+                    "description": "Click Shuffling Checkbox button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1017",
+                    "description": "Click Add blank in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_FIBDROPDOWN_TC_1013",
+                    "description": "Click on unique for each blank",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_FIBDROPDOWN_TC_1014",
+                    "description": "Click on Comman for all blanks",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_FIBDROPDOWN_TC_1015",
+                    "description": "Set the text on the input options",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_FIBDROPDOWN_TC_1016",
+                    "description": "Validate the Set of Row Number",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_WRITING_TC_1",
+                    "description": "Validate the Set of Character Limit",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_WRITING_TC_2",
+                    "description": "Set the text on the reponse options",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_WRITING_TC_3",
+                    "description": "Validate the Set on text placeHolder",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_WRITING_TC_4",
+                    "description": "Validate the click on Allow Rich Text Media",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_WRITING_TC_5",
+                    "description": "Validate the click on Allow File Attachment",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1018",
+                    "description": "Click Instruction Bold button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1019",
+                    "description": "Click Instruction Italic button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1020",
+                    "description": "Click Instruction underline button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1021",
+                    "description": "Click Instruction bullet List menu in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1022",
+                    "description": "Click Instruction number List menu dropdownbtn in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1023",
+                    "description": "Click Instruction number menu list in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1024",
+                    "description": "Click Instruction number menu item in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1025",
+                    "description": "Click Instruction bullet List menu dropdownbtn in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1026",
+                    "description": "Click Instruction bullet menu Item in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1027",
+                    "description": "Click Instruction language button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1028",
+                    "description": "Click Instruction language list dropdown item in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1029",
+                    "description": "Click Instruction lang button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1030",
+                    "description": "Click Instruction undo button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1017",
+                    "description": "Click Add blank in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1031",
+                    "description": "Click Instruction redo button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1032",
+                    "description": "Click Edit button on Instructor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1033",
+                    "description": "Click Edit button of Header",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1036",
+                    "description": "Click Header Bold button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1037",
+                    "description": "Click Header Italic button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1038",
+                    "description": "Click Header underline button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1039",
+                    "description": "Click Header language button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1040",
+                    "description": "Click Header language list dropdown item in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1041",
+                    "description": "Click Header lang button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1042",
+                    "description": "Click Header undo button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1043",
+                    "description": "Click Header redo button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1034",
+                    "description": "Click Header Heading dropdown button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1035",
+                    "description": "Click Header Heading Dropdown Value button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1064",
+                    "description": "Click ctrl+A in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1044",
+                    "description": "Click Prompt Heading dropdown button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1045",
+                    "description": "Click Prompt Heading Dropdown Value button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1046",
+                    "description": "Click Prompt Bold button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1047",
+                    "description": "Click Prompt Italic button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1048",
+                    "description": "Click Prompt underline button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1049",
+                    "description": "Click Prompt language button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1050",
+                    "description": "Click Prompt language list dropdown item in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1051",
+                    "description": "Click Prompt lang button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1052",
+                    "description": "Click Prompt undo button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1053",
+                    "description": "Click Prompt redo button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1054",
+                    "description": "Click Prompt block button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1055",
+                    "description": "Click Prompt line button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1056",
+                    "description": "Click Prompt tabledropdown button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1057",
+                    "description": "Click Prompt image button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1058",
+                    "description": "Click Prompt bulletmenuItem button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1059",
+                    "description": "Click Prompt numbermenu Item button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1060",
+                    "description": "Click Prompt bullet List menu dropdown button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1061",
+                    "description": "Click Prompt number menu List button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1062",
+                    "description": "Click Prompt number List menu dropdown  button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1063",
+                    "description": "Click Prompt bullet List menu button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1065",
+                    "description": "Click Option Edit button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1066",
+                    "description": "Click SubQuestioin Bold button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1067",
+                    "description": "Click subQuestion Italic button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1068",
+                    "description": "Click subQuestion underline button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1069",
+                    "description": "Click subQuestion language button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1070",
+                    "description": "Click subQuestion language list dropdown item in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1071",
+                    "description": "Click subQuestion lang button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1072",
+                    "description": "Click subQuestion undo button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1073",
+                    "description": "Click subQuestion redo button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1074",
+                    "description": "Click subQuestion block button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1075",
+                    "description": "Click subQuestion line button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1076",
+                    "description": "Click subQuestion tabledropdown button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1077",
+                    "description": "Click SubQuestion Option Bold button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1078",
+                    "description": "Click subQuestion Option Italic button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1079",
+                    "description": "Click subQuestion Option underline button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1080",
+                    "description": "Click subQuestion Option language button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1081",
+                    "description": "Click subQuestion Option language list dropdown item in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1082",
+                    "description": "Click subQuestion Option lang button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1083",
+                    "description": "Click subQuestion Option undo button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1084",
+                    "description": "Click subQuestion Option redo button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1118",
+                    "description": "Click numberFormating button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1085",
+                    "description": "Click numbertype1 Option button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1086",
+                    "description": "Click numbertype2 Option button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1087",
+                    "description": "Click numbertype3 Option  button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1088",
+                    "description": "Click selectPositionRadio  button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1089",
+                    "description": "Click insideImage Option button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1090",
+                    "description": "Click outsideImage Option button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1091",
+                    "description": "Click selectPositionAnswerOption button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1092",
+                    "description": "Click vertically Option button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1093",
+                    "description": "Click horizontally Option button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1094",
+                    "description": "Click verticalLayout Option redo button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1095",
+                    "description": "Click sideBySideLayout Option button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1096",
+                    "description": "Click imagePlacement button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1097",
+                    "description": "Click leftRight Option button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1143",
+                    "description": "Click topBottom Option  button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1144",
+                    "description": "Click responseAreaAlignmen button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1100",
+                    "description": "Click responseAreaCenterAlignment Option button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1101",
+                    "description": "Click responseAreaLeftAlignment Option button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1102",
+                    "description": "Click answerOptionPlacement button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1103",
+                    "description": "Click answerOptionBottomPlacement Option button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1104",
+                    "description": "Click answerOptionTopPlacement Option button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1105",
+                    "description": "Click answerOptionRightPlacement Option button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1106",
+                    "description": "Click responseInputType button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1107",
+                    "description": "Click responseInputWordType Option button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1108",
+                    "description": "Click responseInputCharacterType Option button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1109",
+                    "description": "Click responseTextAlignment  button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1110",
+                    "description": "Click responseTextCenterAlignment Option button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1117",
+                    "description": "Click responseTextLeftAlignment Option button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1111",
+                    "description": "Click dropdownWidth button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1112",
+                    "description": "Click dropdownWidthfittoresponse Option  button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1113",
+                    "description": "Click dropdownWidthlongestresponse option button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1114",
+                    "description": "Click matchingDirection button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1115",
+                    "description": "Click matchingUniDirection Option button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1116",
+                    "description": "Click matchingBiDirection Option button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1119",
+                    "description": "Click allowcasedifferences Checkbox in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1120",
+                    "description": "Click allowspellingmismatch Checkbox in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1121",
+                    "description": "Click allowextraspaces Checkbox in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1122",
+                    "description": "Click allowspaces Checkbox in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1123",
+                    "description": "Click allowpunctuations Checkbox in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1024",
+                    "description": "Set questionAreaLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1025",
+                    "description": "Set titleAreaLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1026",
+                    "description": "Set instructionsAreaLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1027",
+                    "description": "Set promptAreaLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1028",
+                    "description": "Set questionItemAreaLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1029",
+                    "description": "Set answerOptionAreaLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1030",
+                    "description": "Set inThisActivityScreenLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1031",
+                    "description": "Set selectOneScreenLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1032",
+                    "description": "Set zoombuttonScreenLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1033",
+                    "description": "Set tapActionScreenLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1034",
+                    "description": "Set clearSelectionScreenLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1035",
+                    "description": "Set selectFromDropdownScreenLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1036",
+                    "description": "Set selectFromOptionMatchScreenLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1037",
+                    "description": "Set matchingLeftScreenLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1038",
+                    "description": "Set matchingRightScreenLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1039",
+                    "description": "Set selectGroupScreenLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1040",
+                    "description": "Set clearScreenLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1124",
+                    "description": "Set questionAreaLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1125",
+                    "description": "Set titleAreaLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1126",
+                    "description": "Set instructionsAreaLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1127",
+                    "description": "Set promptAreaLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1128",
+                    "description": "Set questionItemAreaLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1129",
+                    "description": "Set answerOptionAreaLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1130",
+                    "description": "Set inThisActivityScreenLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1131",
+                    "description": "Set selectOneScreenLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1132",
+                    "description": "Set zoombuttonScreenLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1133",
+                    "description": "Set tapActionScreenLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1134",
+                    "description": "Set clearSelectionScreenLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1135",
+                    "description": "Set selectFromDropdownScreenLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1136",
+                    "description": "Set selectFromOptionMatchScreenLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1137",
+                    "description": "Set matchingLeftScreenLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1138",
+                    "description": "Set matchingRightScreenLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1139",
+                    "description": "Set selectGroupScreenLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1140",
+                    "description": "Set clearScreenLabel value in editor player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1141",
+                    "description": "Click alignAnswerOptiondropDown button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1142",
+                    "description": "Click alignAnswerLeftOptionbtn Option  button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1150",
+                    "description": "Click alignAnswerCenterOptionbtn option button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1151",
+                    "description": "Click selectoptionImageAspectRatiobtn button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1145",
+                    "description": "Click selectoptionImageScaledtoFixedSizebtn Option button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1146",
+                    "description": "Click selectoptionImageScaledtoRelativeSizebtn Option button in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1147",
+                    "description": "Click alignAnswerOptionsbtn  in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1148",
+                    "description": "Click alignAnswerLeftOptionsbtn Option in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1149",
+                    "description": "Click alignAnswerCenterOptionsbtn Option in ck editor",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1155",
+                    "description": "Delete SubQuestion",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1154",
+                    "description": "Delete Response",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1152",
+                    "description": "Delete option",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1153",
+                    "description": "Confirm yes in Delete confirmation box",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_DND_TC_33",
+                    "description": "Click DND Label",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_DND_TC_34",
+                    "description": "Delete DND Label",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_MAT_TC_13",
+                    "description": "",
+                    "tags": "P1"
+                }
+            ]
+        }
+    ]
+}

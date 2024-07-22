@@ -1,0 +1,37 @@
+{
+    "backoffice": {
+        "book": [
+            {
+                "type": "BOOK",
+                "name": "QA Test Automation Book [DO NOT MODIFY]",
+                "coverImage": "./testResources/testcaseData/backoffice/qa/book_cover_compro_qa.png",
+                "description": "DO NOT MODIFY",
+                "bookDesign": "Red",
+                "visibility": "True"
+            }
+        ],
+        "component": [
+            {
+                "type": "Learning Path",
+                "category": "Textbook",
+                "title": "Textbook",
+                "folderLevel": "3",
+                "autonumbering": "1-based",
+                "targetRole": "All",
+                "visibility": "True",
+                "assignable": "True",
+                "freelyAvailable": "Both (Teacher and Student)"
+            }
+        ],
+        "folder": [
+            {
+                "name": "Unit 1",
+                "coverImage": "",
+                "targetRole":"",
+                "assignable" :"",
+                "color" : "",
+                "page" : ""
+            }
+        ]
+    }
+}

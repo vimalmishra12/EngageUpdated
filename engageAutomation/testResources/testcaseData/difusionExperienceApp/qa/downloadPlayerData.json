@@ -1,0 +1,41 @@
+{
+    "engage": {
+        "resources": {
+            "word": {
+                "downPlayerTitle": "Download document",
+                "downPlayerSubtitle": "",
+                "fileName": "Lorem Ipsum.docx",
+                "fileType": "Document",
+                "fileSize": "16.36 KB"
+            },
+            "ppt": {
+                "downPlayerTitle": "Download ppt",
+                "downPlayerSubtitle": "",
+                "fileName": "Lorem Ipsum.pptx",
+                "fileType": "Document",
+                "fileSize": "34.56 KB"
+            },
+            "zip": {
+                "downPlayerTitle": "Download zip",
+                "downPlayerSubtitle": "",
+                "fileName": "Lorem Ipsum.zip",
+                "fileType": "ZIP",
+                "fileSize": "69.6 KB"
+            },
+            "pdf": {
+                "downPlayerTitle": "Download pdf",
+                "downPlayerSubtitle": "",
+                "fileName": "Lorem Ipsum.pdf",
+                "fileType": "PDF",
+                "fileSize": "62.3 KB"
+            },
+            "sheet": {
+                "downPlayerTitle": "Download xls",
+                "downPlayerSubtitle": "",
+                "fileName": "Lorem Ipsum.xlsx",
+                "fileType": "Excel",
+                "fileSize": "8.48 KB"
+            }
+        }
+    }
+}

@@ -1,0 +1,141 @@
+{
+    "backoffice": {
+        "book": [
+            {
+                "type": "BOOK",
+                "name": "QA Test Automation Book [DO NOT MODIFY]",
+                "coverImage": "./testResources/testcaseData/backoffice/qa/book_cover_compro_qa.png",
+                "description": "DO NOT MODIFY",
+                "bookDesign": "Red",
+                "visibility": "True"
+            }
+        ],
+        "component": [
+            {
+                "type": "Learning Path",
+                "category": "Extra Activities",
+                "title": "Extra Activities",
+                "folderLevel": "3",
+                "autonumbering": "1-based",
+                "targetRole": "All",
+                "visibility": "True",
+                "assignable": "True",
+                "freelyAvailable": "Both (Teacher and Student)"
+            },
+            {
+                "type": "Learning Path",
+                "category": "Textbook",
+                "title": "Textbook",
+                "folderLevel": "3",
+                "autonumbering": "1-based",
+                "targetRole": "All",
+                "visibility": "True",
+                "assignable": "True",
+                "freelyAvailable": "Both (Teacher and Student)"
+            },
+            {
+                "type": "Learning Path",
+                "category": "None",
+                "title": "Custom Component",
+                "folderLevel": "2",
+                "autonumbering": "None",
+                "targetRole": "All",
+                "visibility": "True",
+                "assignable": "True",
+                "freelyAvailable": "Both (Teacher and Student)"
+            },
+            {
+                "type": "Learning Path",
+                "category": "None",
+                "title": "Book Resources",
+                "folderLevel": "3",
+                "autonumbering": "None",
+                "targetRole": "All",
+                "visibility": "True",
+                "assignable": "True",
+                "enableTracking": "None",
+                "freelyAvailable": "Both (Teacher and Student)"
+            },
+            {
+                "type": "Learning Path",
+                "category": "None",
+                "title": "LP1",
+                "folderLevel": "2",
+                "autonumbering": "1-based",
+                "targetRole": "All",
+                "visibility": "True",
+                "assignable": "True",
+                "freelyAvailable": "Both (Teacher and Student)"
+            }
+        ],
+        "folder": [
+            {
+                "name": "Unit 1",
+                "coverImage": ""
+            },
+            {
+                "name": "QA Automation Test folder L2",
+                "coverImage": ""
+            },
+            {
+                "name": "Scorable",
+                "coverImage": ""
+            },
+            {
+                "name": "Non Scorable",
+                "coverImage": ""
+            }
+        ],
+        "activity": [
+            {
+                "type": "Native Engage Learning Object",
+                "name": "Native LO 1"
+            },
+            {
+                "type": "Native Engage Learning Object",
+                "name": "Close Ended Native (OLD)"
+            },
+            {
+                "type": "Native Engage Learning Object",
+                "name": "Open Ended Writing"
+            },
+            {
+                "type": "Native Engage Learning Object",
+                "name": "Acceptance Quiz"
+            },
+            {
+                "type": "Reading (etext)",
+                "name": "Etext"
+            },
+            {
+                "type": "HTML WebBook",
+                "name": "Html webbook"
+            }
+        ],
+        "accessCodeBatch": [
+            {
+                "bookName": "QA Test Automation Book [DO NOT MODIFY]",
+                "batchName": "batch1",
+                "startDate": "06/13/2022",
+                "duration": 364,
+                "codeLimit": 300,
+                "status": "Active",
+                "accessCodes": [
+                    {
+                        "code": "22W7-AGG7-9QTE-7YAG",
+                        "status": ""
+                    },
+                    {
+                        "code": "",
+                        "status": "NOT USED"
+                    },
+                    {
+                        "code": "4GU3-RU9Y-UEUT-FWEE",
+                        "status": "REDEEMED",
+                        "email": "abcd@yopmail.com"
+                    }
+                ]
+            }
+        ]
+    }
+}

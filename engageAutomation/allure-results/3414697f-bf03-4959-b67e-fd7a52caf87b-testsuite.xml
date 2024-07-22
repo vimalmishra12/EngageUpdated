@@ -1,0 +1,228 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1721308141552' stop='1721308158186'>
+    <name>Suite1 - Validation of Landing Page Features and Content (English)</name>
+    <title>Suite1 - Validation of Landing Page Features and Content (English)</title>
+    <test-cases>
+        <test-case start='1721308141800' status='broken' stop='1721308144073'>
+            <name>ENG_LAND_TC_1 Validate that the landing page appears on launching the URL - (P1)</name>
+            <title>ENG_LAND_TC_1 Validate that the landing page appears on launching the URL - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721308141802' status='passed' stop='1721308143672'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1721308144074' status='passed' stop='1721308144076'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>javascript error: Cannot read properties of null (reading 'setAttribute')
+                  (Session info: chrome=126.0.6478.182)</message>
+                <stack-trace>javascript error: javascript error: Cannot read properties of null (reading 'setAttribute')
+                  (Session info: chrome=126.0.6478.182)
+                    at getErrorFromResponseBody (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\webdriver\build\request\index.js:166:60)
+                    at Browser.wrapCommandFn (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:136:29)
+                    at Browser.wrapCommandFn (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:136:29)
+                    at Object.enableFullPageScrolling (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\core\runner\/visualTest.js:186:9)
+                    at Object.generateScreenshotsAndLogs (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\core\runner\/visualTest.js:69:9)
+                    at Context.&lt;anonymous> (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\tempRunner\/landingTest.js:146:50)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1721308144076' status='broken' stop='1721308147449'>
+            <name>ENG_LAND_TC_5 Validate the content of the landing page (in English) - (P2)</name>
+            <title>ENG_LAND_TC_5 Validate the content of the landing page (in English) - (P2)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721308144077' status='passed' stop='1721308145956'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3d8d7706-d9ae-4c50-9f86-af3da3d5280d-attachment.png' type='image/png' size='523039'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1721308147449' status='passed' stop='1721308147450'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>javascript error: Cannot read properties of null (reading 'setAttribute')
+                  (Session info: chrome=126.0.6478.182)</message>
+                <stack-trace>javascript error: javascript error: Cannot read properties of null (reading 'setAttribute')
+                  (Session info: chrome=126.0.6478.182)
+                    at getErrorFromResponseBody (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\webdriver\build\request\index.js:166:60)
+                    at Browser.wrapCommandFn (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:136:29)
+                    at Browser.wrapCommandFn (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:136:29)
+                    at Object.enableFullPageScrolling (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\core\runner\/visualTest.js:186:9)
+                    at Object.generateScreenshotsAndLogs (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\core\runner\/visualTest.js:69:9)
+                    at Context.&lt;anonymous> (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\tempRunner\/landingTest.js:146:50)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1721308147450' status='broken' stop='1721308151798'>
+            <name>ENG_LAND_TC_2 Validate that the sign up page is launched on clicking the 'Sign Up &amp; Start Learning Today' button - (P1)</name>
+            <title>ENG_LAND_TC_2 Validate that the sign up page is launched on clicking the 'Sign Up &amp; Start Learning Today' button - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721308147450' status='passed' stop='1721308148307'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='14e9a494-6fe3-4f5c-b680-2544c5d041f1-attachment.png' type='image/png' size='638706'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1721308151799' status='passed' stop='1721308151799'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='50ab23e4-f794-4378-beb8-e40ecd220c1c-attachment.png' type='image/png' size='642005'/>
+                <attachment title='Screenshot' source='0b1cd8b7-dbd5-4a26-8ab1-8cb2c9fc4790-attachment.png' type='image/png' size='638706'/>
+            </attachments>
+            <failure>
+                <message>javascript error: Cannot read properties of null (reading 'setAttribute')
+                  (Session info: chrome=126.0.6478.182)</message>
+                <stack-trace>javascript error: javascript error: Cannot read properties of null (reading 'setAttribute')
+                  (Session info: chrome=126.0.6478.182)
+                    at getErrorFromResponseBody (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\webdriver\build\request\index.js:166:60)
+                    at Browser.wrapCommandFn (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:136:29)
+                    at Browser.wrapCommandFn (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:136:29)
+                    at Object.enableFullPageScrolling (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\core\runner\/visualTest.js:186:9)
+                    at Object.generateScreenshotsAndLogs (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\core\runner\/visualTest.js:69:9)
+                    at Context.&lt;anonymous> (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\tempRunner\/landingTest.js:146:50)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1721308151800' status='broken' stop='1721308155220'>
+            <name>ENG_LAND_TC_3 Validate that the sign in page is launched on clicking the 'Log in' button - (P1)</name>
+            <title>ENG_LAND_TC_3 Validate that the sign in page is launched on clicking the 'Log in' button - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721308151800' status='passed' stop='1721308152463'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ab6ce1d7-f964-4cfa-b9f3-b3f24d95e207-attachment.png' type='image/png' size='65005'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1721308155220' status='passed' stop='1721308155220'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='ec05c3c5-97bb-4a7c-abd0-46148cb399cb-attachment.png' type='image/png' size='642005'/>
+                <attachment title='Screenshot' source='2cb87afa-865c-4bc3-9388-5074c0cc2c15-attachment.png' type='image/png' size='638706'/>
+            </attachments>
+            <failure>
+                <message>javascript error: Cannot read properties of null (reading 'setAttribute')
+                  (Session info: chrome=126.0.6478.182)</message>
+                <stack-trace>javascript error: javascript error: Cannot read properties of null (reading 'setAttribute')
+                  (Session info: chrome=126.0.6478.182)
+                    at getErrorFromResponseBody (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\webdriver\build\request\index.js:166:60)
+                    at runMicrotasks (&lt;anonymous>)
+                    at Browser.wrapCommandFn (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:136:29)
+                    at Browser.wrapCommandFn (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:136:29)
+                    at Object.enableFullPageScrolling (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\core\runner\/visualTest.js:186:9)
+                    at Object.generateScreenshotsAndLogs (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\core\runner\/visualTest.js:69:9)
+                    at Context.&lt;anonymous> (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\tempRunner\/landingTest.js:146:50)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1721308155221' status='broken' stop='1721308158183'>
+            <name>ENG_LAND_TC_4 Validate that user is able to change the language of the page from the language drop down - (P1)</name>
+            <title>ENG_LAND_TC_4 Validate that user is able to change the language of the page from the language drop down - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-126.0.6478.182'/>
+            </parameters>
+            <steps>
+                <step start='1721308155221' status='passed' stop='1721308155737'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2a657014-ffa7-4818-84a8-85adf7029a86-attachment.png' type='image/png' size='49953'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1721308158184' status='passed' stop='1721308158184'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='940b5fb3-b37a-4dc9-9c0d-e40ab1a3f893-attachment.png' type='image/png' size='638706'/>
+                <attachment title='Screenshot' source='9c292b5b-1cea-40ac-9890-d60f8c9797a2-attachment.png' type='image/png' size='638706'/>
+                <attachment title='Screenshot' source='61644da0-93e9-4fab-bf0d-895fc9af42b7-attachment.png' type='image/png' size='640077'/>
+                <attachment title='Screenshot' source='3b45a2fa-f9bf-4a10-8f52-4520ed857e8a-attachment.png' type='image/png' size='640077'/>
+            </attachments>
+            <failure>
+                <message>javascript error: Cannot read properties of null (reading 'setAttribute')
+                  (Session info: chrome=126.0.6478.182)</message>
+                <stack-trace>javascript error: javascript error: Cannot read properties of null (reading 'setAttribute')
+                  (Session info: chrome=126.0.6478.182)
+                    at getErrorFromResponseBody (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\webdriver\build\request\index.js:166:60)
+                    at runMicrotasks (&lt;anonymous>)
+                    at Browser.wrapCommandFn (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:136:29)
+                    at Browser.wrapCommandFn (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\node_modules\webdriverio\node_modules\@wdio\utils\build\shim.js:136:29)
+                    at Object.enableFullPageScrolling (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\core\runner\/visualTest.js:186:9)
+                    at Object.generateScreenshotsAndLogs (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\core\runner\/visualTest.js:69:9)
+                    at Context.&lt;anonymous> (D:\EngageRelease\qa-dls-engage-v2-release\engageAutomation\test\tempRunner\/landingTest.js:146:50)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
