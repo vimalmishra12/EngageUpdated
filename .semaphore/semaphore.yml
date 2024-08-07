@@ -5,11 +5,16 @@ agent:
     type: e1-standard-2
     os_image: ubuntu2004
 blocks:
-  - name: SampleTest1
+  - name: SampleTest
     task:
       prologue:
         commands:
           - checkout
+          - sudo apt-get update
+          - sudo apt-get install -y google-chrome-stable
+          - 'wget https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip'
+          - unzip chromedriver_linux64.zip
+          - sudo mv chromedriver /usr/local/bin/chromedriver
       jobs:
         - name: LoginTest
           commands:
