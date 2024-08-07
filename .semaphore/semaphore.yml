@@ -10,11 +10,6 @@ blocks:
       prologue:
         commands:
           - checkout
-          - sudo apt-get update
-          - sudo apt-get --only-upgrade install google-chrome-stable
-          - 'wget https://chromedriver.storage.googleapis.com/121.0.0/chromedriver_linux64.zip'
-          - unzip chromedriver_linux64.zip
-          - sudo mv chromedriver /usr/local/bin/chromedriver
       jobs:
         - name: LoginTest
           commands:
