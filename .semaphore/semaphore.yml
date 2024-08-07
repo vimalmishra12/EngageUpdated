@@ -21,5 +21,4 @@ blocks:
             - sem-version node 14.21.3
             - cache restore
             - npm install
-            - cache store
             - npm run landingFeatureTest
