@@ -7,10 +7,15 @@ agent:
 blocks:
   - name: SampleTest
     task:
+      prologue:
+        commands:
+          - checkout
+          - sudo apt-get update
+          - sudo apt-get --only-upgrade install google-chrome-stable
+          - npm install
       jobs:
         - name: LoginTest
           commands:
-            - checkout
             - cd engageAutomation
             - sem-version node 14.21.3
             - cache restore
