@@ -1,0 +1,19 @@
+version: v1.0
+name: SampleTest
+agent:
+  machine:
+    type: f1-standard-2
+    os_image: ubuntu2204
+blocks:
+  - name: SampleTest
+    task:
+      jobs:
+        - name: LoginTest
+          commands:
+            - checkout
+            - cd engageAutomation
+            - sem-version node 14.21.3
+            - cache restore
+            - npm install
+            - cache store
+            - npm run landingFeatureTest
