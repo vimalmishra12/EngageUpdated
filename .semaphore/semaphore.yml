@@ -6,19 +6,15 @@ agent:
     os_image: ubuntu2004
 blocks:
   - name: SampleTest
-    task:
-      prologue:
+    jobs:
+      - name: LoginTest
         commands:
-          - checkout
           - cd engageAutomation
+          - sem-version node 14.21.3
+          - cache restore
+          - npm install
           - sudo apt-get update
           - sudo apt-get --only-upgrade install google-chrome-stable
-          - npm install
-      jobs:
-        - name: LoginTest
-          commands:
-            - cd engageAutomation
-            - sem-version node 14.21.3
-            - cache restore
-            - npm install
-            - npm run landingFeatureTest
+          - npm run landingFeatureTest
+    task:
+      jobs: []
