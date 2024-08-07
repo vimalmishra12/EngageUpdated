@@ -2,10 +2,10 @@ version: v1.0
 name: SampleTest
 agent:
   machine:
-    os_image: ubuntu2204
     type: e1-standard-2
+    os_image: ubuntu2004
 blocks:
-  - name: SampleTest1
+  - name: SampleTest
     task:
       jobs:
         - name: LoginTest
