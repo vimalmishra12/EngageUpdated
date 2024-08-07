@@ -6,15 +6,21 @@ agent:
     os_image: ubuntu2004
 blocks:
   - name: SampleTest
-    jobs:
-      - name: LoginTest
+    task:
+      prologue:
         commands:
-          - cd engageAutomation
-          - sem-version node 14.21.3
-          - cache restore
-          - npm install
+          - checkout
           - sudo apt-get update
           - sudo apt-get --only-upgrade install google-chrome-stable
-          - npm run landingFeatureTest
-    task:
-      jobs: []
+          - 'wget https://chromedriver.storage.googleapis.com/121.0.0/chromedriver_linux64.zip'
+          - unzip chromedriver_linux64.zip
+          - sudo mv chromedriver /usr/local/bin/chromedriver
+      jobs:
+        - name: LoginTest
+          commands:
+            - cd engageAutomation
+            - sem-version node 14.21.3
+            - cache restore
+            - npm install
+            - cache store
+            - npm run landingFeatureTest
